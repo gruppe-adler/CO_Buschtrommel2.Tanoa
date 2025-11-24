@@ -37,7 +37,7 @@ opfor_vls addEventHandler ["Fired", {
     player disableUAVConnectability [large_SAM, true];
 }] call CBA_fnc_addPlayerEventHandler;
 
-
+/*
 // cinematic establishing shot
 waitUntil { !isNull findDisplay 46 && date#3 < 7};   // need to wait until mission display is loaded and clients have synced their time to the server (before 7am)
 [
@@ -52,3 +52,4 @@ waitUntil { !isNull findDisplay 46 && date#3 < 7};   // need to wait until missi
     true, 
     10
 ] spawn BIS_fnc_establishingShot;
+*/
