@@ -3,7 +3,7 @@
 
 
 // set date and time
-[[2035,6,28,6,20]] remoteExec ["setDate"];
+// [[2035,6,28,6,20]] remoteExec ["setDate"];
 
 
 // turn off anti-air radar when jammer on small radar is deactivated
@@ -24,3 +24,9 @@
 
 // remove NVGs from AI
 { _x unlinkItem hmd _x; } forEach units blufor;
+
+
+
+// make journalist on heli bench hold up the handheld camera
+reporter disableAI "ANIM";
+reporter switchMove "passenger_inside_8_Aim_Binoc";
