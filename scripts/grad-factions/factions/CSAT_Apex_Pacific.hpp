@@ -235,6 +235,10 @@ class CSAT_Apex_Pacific {
             uniform = "UK3CB_CSAT_G_O_U_Officer";
             backpack = "UK3CB_B_O_Assault_camo_Radio";
             headgear = "UK3CB_CSAT_BEL_H_Beret";
+            handgunWeaponMuzzle = "muzzle_antenna_01_f";
+            addItemsToUniform[] = {
+                LIST_1("muzzle_antenna_03_f")
+            };
             addItemsToBackpack[] = {
                 LIST_1("ACE_wirecutter")
             };
