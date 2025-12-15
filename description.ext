@@ -5,7 +5,7 @@
 
 class CfgFunctions {
     createShortcuts = 1;
-    #include "scripts\rtt\funcs.hpp"                    // handling of render2texture
+    #include "scripts\time\funcs.hpp"                   // handling of time jumps/skips
     #include "scripts\diary\funcs.hpp"                  // diary used for some on-demand scripts
     #include "scripts\stomper\funcs.hpp"                // enable sitting on Stomper UGV
     #include "scripts\craters\funcs.hpp"                // terrain deformation on artillery impacts
