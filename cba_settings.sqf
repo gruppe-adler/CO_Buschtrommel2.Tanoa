@@ -43,7 +43,7 @@ ace_repair_wheelRepairRequiredItems = [];
 
 // ACE Map
 force ace_map_DefaultChannel = 0;	// 0 is global channel
-force ace_map_BFT_Enabled = false;
+force ace_map_BFT_Enabled = true;
 ace_markers_timestampEnabled = true;
 ace_markers_timestampFormat = "HH:MM";
 ace_markers_timestampHourFormat = 24;
@@ -51,7 +51,7 @@ ace_markers_timestampHourFormat = 24;
 // ACE Medical
 force ace_medical_ai_enabledFor = 0;
 force ace_medical_AIDamageThreshold = 0.7;
-force ace_medical_bleedingCoefficient = 0.7;
+force ace_medical_bleedingCoefficient = 0;
 // ace_medical_blood_bloodLifetime = 600;
 // ace_medical_blood_enabledFor = 2;
 // ace_medical_blood_maxBloodObjects = 500;

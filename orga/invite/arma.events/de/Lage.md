@@ -1,15 +1,20 @@
-**Spannungen zwischen NATO-Besatzern und der Bevölkerung Tanoas** hält die örtlichen NATO-Kräfte unter permanenten Stress, jedoch auch unter **permanenter Alarmbereitschaft**. 
+# Feind
+**Spannungen zwischen NATO-Besatzern und der Bevölkerung Tanoas** hält die örtlichen NATO-Kräfte unter permanenten Stress.
+Vor dem Hintergrund dieser Spannungen fällt es der lokalen **Rebellen-Bewegung** leicht durchgängig junge Männer für ihre Sache zu gewinnen.
 
 Entsprechend agieren die NATO-Kräfte vor Ort unter angespannter Lage.
 
-Der Feind verfügt auf Tanoa über eine hohe Anzahl autonomer und ferngesteuerter Systeme:
+
+# Eigene
+Wir verfügen auf Tanoa über die **absolute Feuer- und Luftüberlegenheit**. 
+Trotz unseren sehr dünnen Personal-Ansatzes vor Ort können wir dies durch eine Vielzahl an autonomer und ferngesteuerter Systeme sicherstellen.
 - UAVs
 - UGVs
-- USVs
+- USVs/ROVs (zur Verfügung gestellt und gewartet durch [ION Services](https://armedassault.fandom.com/wiki/ION_Services))
 - HMG- und GMG-Selbstschussanlagen
 
-Sie werden vom CSAT-Zerstörer ***Seeadler*** nördlich von ***Ravi-ta Island*** in das Einsatzgebiet verbracht. 
-
-- Der **Feind ist über die Ankunft des Zerstörers informiert** und **seine Einheiten entsprechend alarmiert**.
-
-- ***Ravi-ta Island*** selbst ist feindfrei. 
+In letzter Zeit sind **einige dieser Anlagen abhanden gekommen**.
+1. teils zerstört durch eingesickerte CSAT-Spezialkräfte 
+   - diese konnten mittlerweile neutralisiert werden
+2. teils *spurlos* aus unseren Systemen (und auch physisch) verschwunden
+   - wir haben die Rebellen hier stark im Verdacht

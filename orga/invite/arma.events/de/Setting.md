@@ -1,3 +1,7 @@
+> [!NOTE]
+> Hintergrund ist derselbe wie bei [Buschtrommel 1](https://arma.events/e/gruppe-adler/buschtrommel).
+> Die Geschehnisse von Buschtrommel 2 spielen direkt im Anschluss zu Buschtrommel 1.
+
 **Tanoa 2035**
 Nach den Konflikten in *Bergkarabach 2020* und der *russischen Invasion der Ukraine 2022* hat die 
 Entwicklung und Verbreitung von **autonom agierenden Systemen** im militärischen sowie zivilen Leben stark zugenommen.
