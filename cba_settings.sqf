@@ -51,7 +51,7 @@ ace_markers_timestampHourFormat = 24;
 // ACE Medical
 force ace_medical_ai_enabledFor = 0;
 force ace_medical_AIDamageThreshold = 0.7;
-force ace_medical_bleedingCoefficient = 0;
+force ace_medical_bleedingCoefficient = 0.7;
 // ace_medical_blood_bloodLifetime = 600;
 // ace_medical_blood_enabledFor = 2;
 // ace_medical_blood_maxBloodObjects = 500;
@@ -77,7 +77,7 @@ force ace_medical_playerDamageThreshold = 1.25;
 force ace_medical_spontaneousWakeUpChance = 0.5;
 force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.5;
 force ace_medical_statemachine_AIUnconsciousness = false;
-// ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
+force ace_medical_statemachine_cardiacArrestBleedoutEnabled = false;
 force ace_medical_statemachine_cardiacArrestTime = 3600;
 force ace_medical_statemachine_fatalInjuriesAI = 0;
 force ace_medical_statemachine_fatalInjuriesPlayer = 2;
