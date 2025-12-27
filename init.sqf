@@ -30,6 +30,37 @@
 }, true, [], true] call CBA_fnc_addClassEventHandler;
 
 
+// set up drone mini submarines (SDV)
+["SDV_01_base_F", "init",{
+    params ["_sdv"];
+    
+    diag_log "Setting up drone SDV";
+    _sdv animateSource ["Doors",0,true];
+
+    private _waypointEH = {
+        params ["_sdv"];
+        (group _sdv) addEventHandler ["WaypointComplete", {
+            params ["_group", "_waypointIndex"];
+            
+            diag_log format ["SDV group %1 completed waypoint", _group];
+
+            _group setBehaviourStrong "CARELESS";
+            _group setSpeedMode "FULL";
+
+            private _sdv = assignedVehicles _group select 0;
+            _sdv swimInDepth -1;
+
+            {
+                _x hideObjectGlobal true;
+                _x allowDamage false;
+            } forEach crew _sdv;
+        }];
+    };
+    [_waypointEH, [_sdv]] call CBA_fnc_execNextFrame;   // need to wait for the group to be assigned to the SDV
+
+}, true, [], true] call CBA_fnc_addClassEventHandler;
+
+
 // spawn Cessna 172 with drop packages attached
 ["UK3CB_Cessna_172_Base", "init",{
     params ["_cessna"];
