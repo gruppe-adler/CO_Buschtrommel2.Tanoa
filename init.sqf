@@ -36,27 +36,20 @@
     
     diag_log "Setting up drone SDV";
     _sdv animateSource ["Doors",0,true];
+    _sdv swimInDepth -1;
 
-    private _waypointEH = {
+    // need to wait for the group to be assigned to the SDV
+    private _delayedCode = {
         params ["_sdv"];
-        (group _sdv) addEventHandler ["WaypointComplete", {
-            params ["_group", "_waypointIndex"];
-            
-            diag_log format ["SDV group %1 completed waypoint", _group];
-
-            _group setBehaviourStrong "CARELESS";
-            _group setSpeedMode "FULL";
-
-            private _sdv = assignedVehicles _group select 0;
-            _sdv swimInDepth -1;
-
-            {
-                _x hideObjectGlobal true;
-                _x allowDamage false;
-            } forEach crew _sdv;
-        }];
+        private _group = group _sdv;
+        _group setBehaviourStrong "CARELESS";
+        _group setSpeedMode "FULL";
+        {
+            _x hideObjectGlobal true;
+            _x allowDamage false;
+        } forEach crew _sdv;
     };
-    [_waypointEH, [_sdv]] call CBA_fnc_execNextFrame;   // need to wait for the group to be assigned to the SDV
+    [_delayedCode, [_sdv]] call CBA_fnc_execNextFrame;
 
 }, true, [], true] call CBA_fnc_addClassEventHandler;
 
