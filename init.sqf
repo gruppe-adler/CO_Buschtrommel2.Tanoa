@@ -28,3 +28,24 @@
         _turret setDir -90;
     }];
 }, true, [], true] call CBA_fnc_addClassEventHandler;
+
+
+// spawn Cessna 172 with drop packages attached
+["UK3CB_Cessna_172_Base", "init",{
+    params ["_cessna"];
+
+    diag_log "Cessna 172 spawned";
+
+    // spawn 4 drop packages
+    private _package_x_coords = [objNull, -5, -4, 4, 5];    // index 0 is invaild
+    for "_i" from 1 to 4 do 
+    {
+        private _package = "Land_Sleeping_bag_folded_F" createVehicle position _cessna;
+        _package attachTo [_cessna, [_package_x_coords#_i, 2, 0.2]];    // attach to the underside of the wings
+        diag_log format ["Attaching package %1 to %2", _package, _cessna];
+        _package hideObjectGlobal true;     // packages should only be visible once dropped (so it looks like they were pushed out of the plane)
+        private _freq = (_i * 100) + 33.7;
+        [_package, _freq, 5000, [ format ["morse_package_number_%1",_i], 1.1], true] call crowsew_spectrum_fnc_addsoundsequenceserver;  // add Morse code signal to package
+        _cessna setVariable [format ["package%1", _i], _package, true];     // save package as variable of the plane (used to drop them later)
+    };
+}, true, [], true] call CBA_fnc_addClassEventHandler;
