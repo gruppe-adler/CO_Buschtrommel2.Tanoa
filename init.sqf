@@ -35,12 +35,11 @@
     params ["_sdv"];
     
     diag_log "Setting up drone SDV";
-    _sdv animateSource ["Doors",0,true];
-    _sdv swimInDepth -1;
 
     // need to wait for the group to be assigned to the SDV
     private _delayedCode = {
         params ["_sdv"];
+
         private _group = group _sdv;
         _group setBehaviourStrong "CARELESS";
         _group setSpeedMode "FULL";
@@ -48,8 +47,11 @@
             _x hideObjectGlobal true;
             _x allowDamage false;
         } forEach crew _sdv;
+
+        _sdv animateSource ["Doors",0,false];
+        _sdv swimInDepth -3;
     };
-    [_delayedCode, [_sdv]] call CBA_fnc_execNextFrame;
+    [_delayedCode, [_sdv], 5] call CBA_fnc_waitAndExecute;
 
 }, true, [], true] call CBA_fnc_addClassEventHandler;
 
