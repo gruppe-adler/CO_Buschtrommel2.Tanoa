@@ -31,6 +31,20 @@
 }, true, [], true] call CBA_fnc_addClassEventHandler;
 
 
+// set up rubber assault boats
+["B_Boat_Transport_01_F", "init",{
+    params ["_boat"];
+    _boat setMass 400;  // make sling-loadable via Little Bird heli
+
+    // add diving equipment
+    clearItemCargoGlobal _boat;  // remove first aid kits
+    _boat addItemCargoGlobal ["U_B_Wetsuit", 1];
+    _boat addItemCargoGlobal ["V_RebreatherB", 1];
+    _boat addItemCargoGlobal ["G_B_Diving", 1];
+    _boat addBackpackCargoGlobal ["B_Assault_Diver", 1];
+}, true, [], true] call CBA_fnc_addClassEventHandler;
+
+
 // set up drone mini submarines (SDV)
 ["SDV_01_base_F", "init",{
     params ["_sdv"];
