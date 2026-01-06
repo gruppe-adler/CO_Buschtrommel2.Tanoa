@@ -6,7 +6,7 @@ class NATO_Apex_Pacific {
             "U_B_T_Soldier_F"
         };
         vest = "V_Chestrig_rgr";
-        backpack = "";
+        backpack = "B_AssaultPack_tna_F";
         headgear[] = {
             "H_HelmetB_Light_tna_F",
             "H_HelmetB_Enh_tna_F",
@@ -43,9 +43,10 @@ class NATO_Apex_Pacific {
         watch = "ItemWatch";
         addItemsToUniform[] = {
             GRAD_FACTIONS_MEDICITEMS_INF_LIST,
-            LIST_2("muzzle_antenna_01_f"),      // jamming antenna
+            LIST_1("muzzle_antenna_03_f"),      // jamming antenna
             LIST_2("ACE_CableTie"),
-            LIST_1("ACE_MapTools")
+            LIST_1("ACE_MapTools"),
+            LIST_1("crowsew_tfar_icom")                
           };
         addItemsToVest[] = {
             LIST_2("SmokeShell"),
@@ -59,7 +60,7 @@ class NATO_Apex_Pacific {
     };
 
     class Type {
-        // rifleman (base class for hunter-killer teams)
+        // rifleman (base class for infantry)
         class Soldier_F {
             vest[] = {
               "V_PlateCarrier1_tna_F",
@@ -75,7 +76,7 @@ class NATO_Apex_Pacific {
             };
         };
 
-        // squad leader (hunter-killer)
+        // squad leader
         class Soldier_SL_F: Soldier_F {
             backpack = "TFAR_rt1523g_bwmod";
             binoculars = "Rangefinder";
@@ -95,7 +96,6 @@ class NATO_Apex_Pacific {
             primaryWeapon = "arifle_MX_GL_khk_F";   // MX with underbarrel grenade launcher
             primaryWeaponUnderbarrelMagazine = "1Rnd_HE_Grenade_shell";
             vest = "UK3CB_LDF_B_V_GREN_Vest_KKZ10_GEO";
-            backpack = "B_AssaultPack_tna_F";
             addItemsToBackpack[] = {
                 LIST_15("1Rnd_HE_Grenade_shell")
             };
@@ -103,13 +103,6 @@ class NATO_Apex_Pacific {
         
         // engineer (incl. electronic warfare)
         class Engineer_F: Soldier_F {
-            handgunWeapon = "hgun_esd_01_F";    // spectrum device
-            handgunWeaponMuzzle = "muzzle_antenna_03_f";    // jamming antenna
-            handgunWeaponMagazine = "";
-            addItemsToUniform[] = {
-                LIST_1("crowsew_tfar_icom")                
-            };
-            backpack = "B_AssaultPack_tna_F";
             addItemsToBackpack[] = {
                 LIST_1("ToolKit"),
                 LIST_1("ACE_EntrenchingTool"),
@@ -161,9 +154,9 @@ class NATO_Apex_Pacific {
         
         // marksman
         class soldier_M_F: Soldier_F {
-            primaryWeapon = "arifle_MXM_khk_F";
-            primaryWeaponOptics = "optic_SOS_khk_F";
-            primaryWeaponUnderbarrel = "bipod_01_F_khk";
+            primaryWeapon = "srifle_LRR_tna_LRPS_F";
+            primaryWeaponMagazine = "7Rnd_408_Mag";
+            primaryWeaponOptics = "optic_LRPS_tna_F";
             addItemsToVest[] = {
                 LIST_1("ACE_RangeCard")                
             };
@@ -171,6 +164,22 @@ class NATO_Apex_Pacific {
         
         /*** following are classes not derived from the rifleman ***/
         
+        // Heli pilot
+        class Helipilot_F {
+            uniform = "U_B_HeliPilotCoveralls";
+            vest = "V_TacVest_blk";
+            backpack = "TFAR_rt1523g_bwmod";
+            headgear = "H_PilotHelmetHeli_B";
+            primaryWeapon = "SMG_01_Holo_F";
+            primaryWeaponMagazine = "30Rnd_45ACP_Mag_SMG_01";
+            primaryWeaponOptics = "optic_Holosight_smg";
+            addItemsToVest[] = {
+                LIST_3("30Rnd_45ACP_Mag_SMG_01"),
+                LIST_1("SmokeShellBlue"),
+                LIST_1("SmokeShellOrange")
+            };
+        };
+
         // automatic rifle 
         class Soldier_AR_F {
             vest[] = {
