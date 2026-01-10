@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.017453292;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=33;
+	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=10806;
+		nextID=10908;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5351;
+		nextID=5435;
 	};
 	class Camera
 	{
-		pos[]={2490.7505,183.2908,8921.5439};
-		dir[]={0.62809974,-0.44096327,0.64112961};
-		up[]={0.30859107,0.89752424,0.31499287};
-		aside[]={0.71432996,-4.6566129e-10,-0.69981194};
+		pos[]={2730.4236,372.76633,8737.4521};
+		dir[]={0.061200265,-0.73370343,0.67680508};
+		up[]={0.066076979,0.67941302,0.73076433};
+		aside[]={0.99599713,5.2645191e-07,-0.090065964};
 	};
 };
 binarizationWanted=0;
@@ -231,9 +231,10 @@ addons[]=
 	"A3_Props_F_Orange_Civilian_InfoBoards",
 	"A3_Props_F_Argo_Items_Documents",
 	"A3_Structures_F_Items_Stationery",
-	"A3_Structures_F_Exp_Military_Pillboxes",
 	"A3_Structures_F_Exp_Military_Trenches",
 	"A3_Structures_F_Mil_Shelters",
+	"A3_Modules_F_Tacops",
+	"A3_Structures_F_Exp_Military_Pillboxes",
 	"A3_Structures_F_Exp_Infrastructure_Pavements",
 	"Jbad_Wall",
 	"A3_Structures_F_Exp_Civilian_Accessories",
@@ -267,7 +268,6 @@ addons[]=
 	"A3_Data_F_Curator_Intel",
 	"UK3CB_Factions_TPD_B",
 	"A3_Modules_F_Effects",
-	"A3_Modules_F_Tacops",
 	"jbad_opxmisc2_def",
 	"A3_Signs_F",
 	"gm_vehicles_land_wheeled_typ2_ge_civ_typ2",
@@ -1059,150 +1059,150 @@ class AddonsMetaData
 		};
 		class Item115
 		{
+			className="A3_Modules_F_Tacops";
+			name="Arma 3 Tac-Ops - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item116
+		{
 			className="Jbad_Wall";
 			name="Jbad_Wall";
 		};
-		class Item116
+		class Item117
 		{
 			className="A3_Boat_F_Destroyer";
 			name="Arma 3 Jets - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item117
+		class Item118
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item118
+		class Item119
 		{
 			className="ace_fastroping";
 			name="ACE3 - Fastroping";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item119
+		class Item120
 		{
 			className="A3_Air_F_Orange";
 			name="Arma 3 Orange - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item120
+		class Item121
 		{
 			className="A3_Structures_F_Kart";
 			name="Arma 3 Karts - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item121
+		class Item122
 		{
 			className="Eden_Extended_Objects";
 			name="Eden Extended Objects";
 			author="_SCAR";
 		};
-		class Item122
+		class Item123
 		{
 			className="rhsgref_c_troops";
 			name="GREF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item123
+		class Item124
 		{
 			className="UK3CB_Factions_Weapons";
 			name="3CB Factions - Weapons";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item124
+		class Item125
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item125
+		class Item126
 		{
 			className="A3_Rocks_F_Enoch";
 			name="Arma 3 Contact Platform - Rocks and Stones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item126
+		class Item127
 		{
 			className="crowsEW_main";
 			name="Crow's EW - Main";
 			author="Crowdedlight";
 		};
-		class Item127
+		class Item128
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item128
+		class Item129
 		{
 			className="grad_extras_beret";
 			name="grad_extras_beret";
 			author="Gruppe Adler";
 			url="https://gruppe-adler.de/en";
 		};
-		class Item129
+		class Item130
 		{
 			className="lambs_wp";
 			name="LAMBS Danger WP";
 			author="LAMBS Danger Dev Team";
 		};
-		class Item130
+		class Item131
 		{
 			className="A3_Props_F_Enoch_Items_AluminiumFoil";
 			name="Contact Anomalies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item131
+		class Item132
 		{
 			className="praa_tunnels";
 			name="praa_tunnels";
 		};
-		class Item132
+		class Item133
 		{
 			className="A3_Rocks_F";
 			name="Arma 3 - Rocks and Stones";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item133
+		class Item134
 		{
 			className="Air_F_lxWS";
 			name="Arma 3 Creator DLC: Western Sahara - Aircraft";
 			author="Rotators Collective";
 			url="https://sahara.rotators.net/";
 		};
-		class Item134
+		class Item135
 		{
 			className="A3_Data_F_Curator";
 			name="Arma 3 Zeus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item135
+		class Item136
 		{
 			className="UK3CB_Factions_TPD";
 			name="3CB Factions - TPD";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
-		};
-		class Item136
-		{
-			className="A3_Modules_F_Tacops";
-			name="Arma 3 Tac-Ops - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
 		};
 		class Item137
 		{
@@ -1351,7 +1351,7 @@ class CustomAttributes
 				class data
 				{
 					singleType="STRING";
-					value="x[[755,[2509,10.3]],[756,[2508,10.35,11,10.84]],[757,[2507,9.89,10.6,11.26,10.88]],[758,[2508,11.37,11.38]],[771,[2507,11.22,11.04,12.63]],[772,[2506,12.23,10.57,10.52,12.17]],[773,[2506,12.3,10.63,10.5,11.13,12.7]],[774,[2507,11.45,10.06,9.92,11.5]],[775,[2507,11.64,10.26,9.8,9.98,11.14]],[776,[2508,10.8,9.5,8.54,9.07,11.03,10.96]],[777,[2508,10.44,9.74,8.57,8.56,9.16,10.12]],[778,[2510,9.25,8.66,8.37,8.43,8.86]],[779,[2510,9.53,9.06,8.53,8.2,7.47]],[780,[2511,9.05,9.23,8.74]]]";
+					value="x[[755,[2402,30.71,30.32,31.69,31.77,32.56],[2509,10.3]],[756,[2402,30.9,29.8,30.48,31.32,33.27,32.8,34.59,35.76,36.87,37.66],[2508,10.35,11,10.84]],[757,[2402,30.81,30.01,31.74,31.4,31.19,32.35,34.11,35.27,36.44,37.23,37.39],[2507,9.89,10.6,11.26,10.88]],[758,[2402,30.59,30.58,31.21,31.29,31.01,31.99,33.76,34.71,35.58,36.23,36.72],[2508,11.37,11.38]],[759,[2402,30.05,31.31,30.91,30.99,30.93,31.56,32.82,33.74,34.3,34.93,35.5]],[760,[2403,29.49,29.92,30.41,30.41,31.12,32.74,33.19,33.6,34.26,35.02]],[761,[2403,28.15,28.77,30.26,30.41,30.74,32.01,32.78,32.64,33.41]],[762,[2403,26.76,27.68,28.72,29.97,30.25,29.63,30.42,31.16]],[763,[2404,26.49,27.57,29.12,29.73,29.68,29.67,31.24]],[764,[2406,29.36,29.79,29.87,29.87,30.99]],[765,[2407,29.29,29.57,29.87,30.74]],[766,[2409,28.82]],[771,[2507,11.22,11.04,12.63]],[772,[2506,12.23,10.57,10.52,12.17]],[773,[2506,12.3,10.63,10.5,11.13,12.7]],[774,[2507,11.45,10.06,9.92,11.5]],[775,[2507,11.64,10.26,9.8,9.98,11.14]],[776,[2508,10.8,9.5,8.54,9.07,11.03,10.96]],[777,[2508,10.44,9.74,8.57,8.56,9.16,10.12]],[778,[2510,9.25,8.66,8.37,8.43,8.86]],[779,[2510,9.53,9.06,8.53,8.2,7.47]],[780,[2511,9.05,9.23,8.74]]]";
 				};
 			};
 		};
@@ -1538,7 +1538,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=119;
+		items=109;
 		class Item0
 		{
 			dataType="Group";
@@ -3413,7 +3413,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13288.537,4.2215781,12399.11};
+								position[]={13288.537,4.2215791,12399.11};
 								angles[]={0,5.4998116,0};
 							};
 							side="Empty";
@@ -3423,7 +3423,7 @@ class Mission
 							};
 							id=5786;
 							type="SatelliteAntenna_01_Small_Mounted_Sand_F";
-							atlOffset=1.1620283;
+							atlOffset=1.1620293;
 						};
 						class Item5
 						{
@@ -3559,7 +3559,7 @@ class Mission
 						};
 					};
 					id=8928;
-					atlOffset=7.9612575;
+					atlOffset=7.9612584;
 				};
 				class Item19
 				{
@@ -18920,7 +18920,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={12810.744,-0.44424641,14416.76};
+								position[]={12810.744,-0.44424617,14416.76};
 								angles[]={0,5.2851014,0};
 							};
 							side="Empty";
@@ -18930,7 +18930,7 @@ class Mission
 							};
 							id=5263;
 							type="Land_Molo_drevo";
-							atlOffset=1.1420186;
+							atlOffset=1.1420188;
 						};
 						class Item1
 						{
@@ -19227,7 +19227,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={12802.089,1.9185916,14384.007};
+								position[]={12802.089,1.9185919,14384.007};
 								angles[]={0.039985489,2.0096245,6.2591867};
 							};
 							side="Empty";
@@ -19238,7 +19238,7 @@ class Mission
 							};
 							id=7396;
 							type="Land_FishingGear_01_F";
-							atlOffset=1.8596649e-05;
+							atlOffset=1.8835068e-05;
 						};
 						class Item19
 						{
@@ -19367,7 +19367,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={12818.314,1.3957942,14404.758};
+								position[]={12818.314,1.3957944,14404.758};
 								angles[]={0,2.7392769,0};
 							};
 							side="Empty";
@@ -19377,7 +19377,7 @@ class Mission
 							};
 							id=7406;
 							type="Land_UWreck_FishingBoat_F";
-							atlOffset=0.4950186;
+							atlOffset=0.49501884;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -19401,7 +19401,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={12786.626,0.4963876,14413.209};
+								position[]={12786.626,0.49638778,14413.209};
 								angles[]={0.09834861,0.59069186,6.2219291};
 							};
 							side="Empty";
@@ -19412,7 +19412,7 @@ class Mission
 							};
 							id=7409;
 							type="Land_Boat_01_abandoned_blue_F";
-							atlOffset=0.0029626116;
+							atlOffset=0.0029627904;
 						};
 						class Item28
 						{
@@ -19437,7 +19437,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={12783.063,0.56953305,14414.636};
+								position[]={12783.063,0.56953329,14414.636};
 								angles[]={0,0.54795563,0};
 							};
 							side="Empty";
@@ -19448,7 +19448,7 @@ class Mission
 							};
 							id=7410;
 							type="Land_Boat_01_abandoned_red_F";
-							atlOffset=0.00018520653;
+							atlOffset=0.00018544495;
 						};
 						class Item30
 						{
@@ -19488,7 +19488,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={12843.262,0.40105593,14399.136};
+								position[]={12843.262,0.40105617,14399.136};
 								angles[]={0.12468632,3.6062689,6.2591867};
 							};
 							side="Empty";
@@ -19499,7 +19499,7 @@ class Mission
 							};
 							id=7414;
 							type="Land_Boat_04_wreck_F";
-							atlOffset=1.8596649e-05;
+							atlOffset=1.8835068e-05;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -19523,7 +19523,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={12837.929,1.9274552,14373.699};
+								position[]={12837.929,1.9274554,14373.699};
 								angles[]={0.026668631,2.4572315,6.2751913};
 							};
 							side="Empty";
@@ -19534,7 +19534,7 @@ class Mission
 							};
 							id=7412;
 							type="Land_RowBoat_V2_F";
-							atlOffset=-0.0039813519;
+							atlOffset=-0.0039811134;
 						};
 						class Item33
 						{
@@ -20212,7 +20212,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12816.589,1.4945701,14380.411};
+										position[]={12816.589,1.4945704,14380.411};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20223,14 +20223,14 @@ class Mission
 									};
 									id=5353;
 									type="I_C_Soldier_Bandit_4_F";
-									atlOffset=9.4175339e-05;
+									atlOffset=9.4413757e-05;
 								};
 								class Item1
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12818.97,1.6227831,14373.753};
+										position[]={12818.97,1.6227833,14373.753};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20241,14 +20241,14 @@ class Mission
 									};
 									id=5354;
 									type="I_C_Soldier_Bandit_3_F";
-									atlOffset=9.4175339e-05;
+									atlOffset=9.4413757e-05;
 								};
 								class Item2
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12809.931,1.6788719,14378.03};
+										position[]={12809.931,1.6788721,14378.03};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20260,14 +20260,14 @@ class Mission
 									};
 									id=5355;
 									type="I_C_Soldier_Bandit_7_F";
-									atlOffset=9.4056129e-05;
+									atlOffset=9.4294548e-05;
 								};
 								class Item3
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12821.351,1.7001121,14367.095};
+										position[]={12821.351,1.7001123,14367.095};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20279,14 +20279,14 @@ class Mission
 									};
 									id=5356;
 									type="I_C_Soldier_Bandit_5_F";
-									atlOffset=9.4175339e-05;
+									atlOffset=9.4413757e-05;
 								};
 								class Item4
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12803.272,1.8725709,14375.649};
+										position[]={12803.272,1.8725711,14375.649};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20297,14 +20297,14 @@ class Mission
 									};
 									id=5357;
 									type="I_C_Soldier_Bandit_6_F";
-									atlOffset=9.4413757e-05;
+									atlOffset=9.4652176e-05;
 								};
 								class Item5
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12823.731,1.7273095,14360.437};
+										position[]={12823.731,1.7273097,14360.437};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20315,14 +20315,14 @@ class Mission
 									};
 									id=5358;
 									type="I_C_Soldier_Bandit_2_F";
-									atlOffset=9.4294548e-05;
+									atlOffset=9.4532967e-05;
 								};
 								class Item6
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12796.614,1.9913797,14373.268};
+										position[]={12796.614,1.99138,14373.268};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20333,14 +20333,14 @@ class Mission
 									};
 									id=5359;
 									type="I_C_Soldier_Bandit_8_F";
-									atlOffset=7.5101852e-05;
+									atlOffset=7.5340271e-05;
 								};
 								class Item7
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12826.111,1.7202562,14353.778};
+										position[]={12826.111,1.7202564,14353.778};
 										angles[]={0,0.44200465,0};
 									};
 									side="Independent";
@@ -20351,7 +20351,7 @@ class Mission
 									};
 									id=5360;
 									type="I_C_Soldier_Bandit_1_F";
-									atlOffset=9.4175339e-05;
+									atlOffset=9.4413757e-05;
 								};
 								class Item8
 								{
@@ -23189,7 +23189,7 @@ class Mission
 			state=1;
 			class Entities
 			{
-				items=12;
+				items=11;
 				class Item0
 				{
 					dataType="Group";
@@ -23692,8 +23692,8 @@ class Mission
 						position[]={11928.283,148.20598,10194.936};
 						angles[]={6.2725215,1.2485737,6.2778621};
 					};
-					side="Civilian";
-					flags=6;
+					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						init="call{this setObjectTextureGlobal [0,'']}; " \n "call{this setObjectTextureGlobal [1,'']}; " \n "call{this setObjectTextureGlobal [2,'']}; " \n "this; lodNoShadow = 1;" \n "this limitSpeed 40;";
@@ -24155,154 +24155,9 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item11
-				{
-					dataType="Layer";
-					name="Layer 2908";
-					class Entities
-					{
-						items=1;
-						class Item0
-						{
-							dataType="Group";
-							side="Civilian";
-							class Entities
-							{
-								items=6;
-								class Item0
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={11899.893,147.12123,10202.364};
-										angles[]={6.2725215,1.2485737,6.2778621};
-									};
-									side="Civilian";
-									flags=6;
-									class Attributes
-									{
-										name="UGVD_1";
-									};
-									id=5226;
-									type="C_IDAP_UAV_AI_F";
-									atlOffset=1.5258789e-05;
-								};
-								class Item1
-								{
-									dataType="Waypoint";
-									loiterAltitude=-3.4028235e+38;
-									position[]={11946.015,146.08397,10201.131};
-									class Effects
-									{
-									};
-									showWP="NEVER";
-									id=5671;
-									type="Move";
-								};
-								class Item2
-								{
-									dataType="Waypoint";
-									loiterAltitude=-3.4028235e+38;
-									position[]={12271.552,224.29309,10500.447};
-									class Effects
-									{
-									};
-									showWP="NEVER";
-									id=5246;
-									type="Move";
-								};
-								class Item3
-								{
-									dataType="Waypoint";
-									loiterAltitude=-3.4028235e+38;
-									position[]={11324.982,179.83426,10339.917};
-									class Effects
-									{
-									};
-									showWP="NEVER";
-									id=5249;
-									type="Move";
-								};
-								class Item4
-								{
-									dataType="Waypoint";
-									loiterAltitude=-3.4028235e+38;
-									position[]={13410.11,11.81843,11636.506};
-									class Effects
-									{
-									};
-									timeoutMin=20;
-									timeoutMid=20;
-									timeoutMax=20;
-									showWP="NEVER";
-									id=5253;
-									type="Move";
-								};
-								class Item5
-								{
-									dataType="Waypoint";
-									loiterAltitude=-3.4028235e+38;
-									position[]={11931.265,146.69302,10146.631};
-									class Effects
-									{
-									};
-									showWP="NEVER";
-									id=5260;
-									type="Cycle";
-									atlOffset=-1.5258789e-05;
-								};
-							};
-							class Attributes
-							{
-							};
-							class CrewLinks
-							{
-								class LinkIDProvider
-								{
-									nextID=1;
-								};
-								class Links
-								{
-									items=1;
-									class Item0
-									{
-										linkID=0;
-										item0=5226;
-										item1=5227;
-										class CustomData
-										{
-											role=1;
-										};
-									};
-								};
-							};
-							id=5225;
-							atlOffset=60.779999;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="groupID";
-									expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Haul Truck";
-										};
-									};
-								};
-								nAttributes=1;
-							};
-						};
-					};
-					id=9651;
-					atlOffset=60.779999;
-				};
 			};
 			id=9392;
-			atlOffset=19.995768;
+			atlOffset=67.535675;
 		};
 		class Item62
 		{
@@ -24461,7 +24316,7 @@ class Mission
 				};
 			};
 			id=9529;
-			atlOffset=1.3254623;
+			atlOffset=12.108311;
 		};
 		class Item65
 		{
@@ -26342,177 +26197,11 @@ class Mission
 		};
 		class Item76
 		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2968,17.861731,9296};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=9844;
-			type="Land_PillboxBunker_01_big_F";
-			atlOffset=2.7306623;
-		};
-		class Item77
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2954.156,19.255608,9275.999};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=9845;
-			type="Land_PillboxBunker_01_hex_F";
-		};
-		class Item78
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2969.3176,16.97224,9277.751};
-				angles[]={0,3.2066214,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=9846;
-			type="Land_PillboxBunker_01_rectangle_F";
-			atlOffset=1.454978;
-		};
-		class Item79
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2977.7585,14.148376,9316.2783};
-				angles[]={0,1.1717893,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=9847;
-			type="Land_PillboxWall_01_3m_round_F";
-			atlOffset=0.29909515;
-		};
-		class Item80
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2977.1643,16.097395,9303.9141};
-				angles[]={0,0.84840864,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=9848;
-			type="Land_PillboxWall_01_3m_F";
-			atlOffset=2.0176401;
-		};
-		class Item81
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2978.7844,16.097395,9301.0371};
-				angles[]={0,1.267556,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=9849;
-			type="Land_PillboxWall_01_3m_F";
-			atlOffset=2.0980692;
-		};
-		class Item82
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2971,14.736366,9311};
-				angles[]={0,0.57441312,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=9850;
-			type="Land_PillboxWall_01_6m_round_F";
-			atlOffset=0.75903034;
-		};
-		class Item83
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2981.8362,14.027324,9306.6016};
-				angles[]={0,1.1717892,0};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=9851;
-			type="Land_PillboxWall_01_6m_F";
-			atlOffset=0.070681572;
-		};
-		class Item84
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2979.4976,14.13566,9312.127};
-				angles[]={0,1.1717893,0};
-			};
-			side="Empty";
-			flags=1;
-			class Attributes
-			{
-			};
-			id=9853;
-			type="Land_PillboxWall_01_6m_F";
-			atlOffset=0.25500584;
-		};
-		class Item85
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2965.4973,14.736366,9312.626};
-			};
-			side="Empty";
-			flags=5;
-			class Attributes
-			{
-			};
-			id=9854;
-			type="Land_PillboxWall_01_6m_round_F";
-			atlOffset=0.22958755;
-		};
-		class Item86
-		{
 			dataType="Layer";
 			name="Sosovu";
 			class Entities
 			{
-				items=2;
+				items=4;
 				class Item0
 				{
 					dataType="Layer";
@@ -27198,7 +26887,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={3250.7495,0.0080662966,9210.0557};
+								position[]={3250.7495,0.008066535,9210.0557};
 								angles[]={0,4.9147778,0};
 							};
 							side="Empty";
@@ -27209,7 +26898,7 @@ class Mission
 							};
 							id=10280;
 							type="I_SDV_01_F";
-							atlOffset=0.080855608;
+							atlOffset=0.080855846;
 						};
 						class Item1
 						{
@@ -27409,11 +27098,3322 @@ class Mission
 					id=10296;
 					atlOffset=1.0734549;
 				};
+				class Item2
+				{
+					dataType="Layer";
+					name="Civ presence";
+					class Entities
+					{
+						items=4;
+						class Item0
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={2780.4929,16.839991,9146.6484};
+								angles[]={0.023998277,0.64620817,6.2245946};
+							};
+							areaSize[]={378.67099,0,430.51501};
+							areaIsRectangle=1;
+							flags=1;
+							id=10806;
+							type="ModuleCivilianPresence_F";
+							atlOffset=-0.069999695;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#onDeleted";
+									expression="_this setVariable [""#onDeleted"",compile _value]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="true";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#useAgents";
+									expression="_this setVariable [""#useAgents"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="#debug";
+									expression="_this setVariable [""#debug"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="#usePanicMode";
+									expression="_this setVariable [""#usePanicMode"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="#onCreated";
+									expression="_this setVariable [""#onCreated"",compile _value]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="_this setUnitLoadout selectRandom [" \n "    ""C_Man_casual_1_F_tanoan"", " \n "    ""C_Man_casual_2_F_tanoan"", " \n "    ""C_Man_casual_3_F_tanoan"", " \n "    ""C_Man_casual_4_F_tanoan"", " \n "    ""C_Man_casual_5_F_tanoan"", " \n "    ""C_Man_casual_6_F_tanoan"", " \n "    ""C_Man_casual_7_F_tanoan"", " \n "    ""C_Man_casual_8_F_tanoan"", " \n "    ""C_Man_casual_9_F_tanoan""," \n "    ""C_Man_casual_4_v2_F_tanoan"", " \n "    ""C_Man_casual_5_v2_F_tanoan"", " \n "    ""C_Man_casual_6_v2_F_tanoan""," \n "    ""I_C_Soldier_Bandit_7_F""," \n "    ""I_C_Soldier_Bandit_3_F""," \n "    ""I_C_Soldier_Bandit_2_F""," \n "    ""I_C_Pilot_F""," \n "    ""I_C_Soldier_Bandit_5_F""," \n "    ""I_C_Soldier_Bandit_6_F""," \n "    ""I_C_Soldier_Bandit_1_F""," \n "    ""I_C_Soldier_Bandit_8_F""," \n "    ""I_C_Soldier_Bandit_4_F""" \n "];" \n "" \n "removeAllWeapons _this;";
+										};
+									};
+								};
+								class Attribute5
+								{
+									property="#unitCount";
+									expression="_this setVariable [""#unitCount"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute6
+								{
+									property="#unitPreset";
+									expression="_this setVariable [""#unitPreset"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Civ_Tanoan";
+										};
+									};
+								};
+								nAttributes=7;
+							};
+						};
+						class Item1
+						{
+							dataType="Trigger";
+							position[]={2755.0129,16.292999,9146.6416};
+							angle=0.004415683;
+							class Attributes
+							{
+								text="Sosovu_comp_civ_trigger";
+								sizeA=1500;
+								sizeB=1500;
+								repeatable=1;
+								activationBy="ANYPLAYER";
+								isServerOnly=1;
+								triggerInterval=3;
+							};
+							id=10808;
+							type="EmptyDetectorAreaR250";
+						};
+						class Item2
+						{
+							dataType="Layer";
+							name="Positions";
+							state=1;
+							class Entities
+							{
+								items=41;
+								class Item0
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2575.7981,23.442801,9304.0195};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10817;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.065999985;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item1
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2545.5959,18.65773,9335.376};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10818;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.06568718;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item2
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2552.0872,18.065458,9340.7412};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10819;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item3
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2514.7061,25.718262,9278.2988};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10820;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.00023460388;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item4
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2897.1221,13.301344,9426.9941};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10821;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.00015640259;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item5
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={3126.9729,25.024858,9206.7188};
+										angles[]={0,0,6.2824869};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10822;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.26300049;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=8;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item6
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={3098.562,24.061373,9192.2539};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10823;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.2310009;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item7
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2967.564,0.69045687,8930.1123};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10824;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=3.8921833e-05;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item8
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2827.8826,32.47121,9025.1514};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10825;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.080879211;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item9
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2838.9822,31.83901,9016.1182};
+										angles[]={0.12468339,0,6.1558776};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10826;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.23327827;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item10
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2861.7527,30.861925,9030.3887};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10827;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.74180031;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item11
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2547.2371,40.105873,9053.3828};
+										angles[]={0.010663962,0,0.1062731};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10851;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=8;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item12
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2588.6018,21.733555,8905.25};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10852;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item13
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2614.0759,22.55294,8927.1191};
+										angles[]={0,0,6.2826962};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10853;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.32600021;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item14
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2545.8232,22.725473,8925.4678};
+										angles[]={-0,0,6.2823396};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10854;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item15
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2539.936,23.185465,8942.1162};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10855;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item16
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2888.3105,33.600468,9230.9199};
+										angles[]={0,0,6.2826972};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10888;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item17
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2883.071,34.757,9254.6523};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10889;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item18
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2636.7681,4.9417305,9352.2803};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10856;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=-4.7683716e-07;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item19
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2635.021,7.3407941,9326.707};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10857;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.096184254;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item20
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2652.0576,4.877666,9340.2578};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10858;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.19754171;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item21
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2670.623,4.6302013,9326.2705};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10859;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=-4.7683716e-07;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item22
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2633.2737,7.7087951,9307.6904};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10860;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=-4.7683716e-07;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item23
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2661.4497,5.7532516,9306.8174};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10861;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.10325146;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item24
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2630.2156,8.4561863,9292.3906};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10862;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item25
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2641.355,7.8122377,9281.2432};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10863;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.31965876;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item26
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2637.6418,8.7735119,9265.9434};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10864;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item27
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2651.4023,8.9595585,9219.6055};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10865;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item28
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2671.4968,7.6324368,9229.4424};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10866;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.26125765;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item29
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2673.4626,7.1198711,9248.2402};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10867;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.20086861;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item30
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2671.4968,5.9942536,9280.1504};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10868;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.35225677;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item31
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2676.302,3.5400887,9343.3184};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10869;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=-4.7683716e-07;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item32
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2685.0386,2.7005904,9357.3066};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10870;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=-4.7683716e-07;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item33
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2652.9309,9.563755,9247.8018};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10871;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=6;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item34
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2666.1709,6.18503,9269.8037};
+										angles[]={0.2584309,0,6.2664304};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10872;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=4.7683716e-07;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item35
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2641.5391,9.3930531,9225.4756};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10873;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.00048732758;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item36
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2673.4626,6.1706028,9260.043};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10874;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=-4.7683716e-07;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item37
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2669.3379,7.7544956,9221.7275};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10875;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.13399982;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item38
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2661.4841,5.7141109,9295.083};
+										angles[]={0.010664274,0,6.2618566};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10876;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item39
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2631.0891,6.5136466,9336.7607};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10877;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.19099283;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=0;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item40
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={3026.3721,7.2951579,9401.4434};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10903;
+									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.00015640259;
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="#useBuilding";
+											expression="_this setVariable [""#useBuilding"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="#type";
+											expression="_this setVariable [""#type"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="#terminal";
+											expression="_this setVariable [""#terminal"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="#capacity";
+											expression="_this setVariable [""#capacity"",_value]";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=3;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+							};
+							id=10906;
+							atlOffset=-8.8972597;
+						};
+						class Item3
+						{
+							dataType="Layer";
+							name="Spawnpoints";
+							class Entities
+							{
+								items=15;
+								class Item0
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2652.2595,8.5135317,9218.3125};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10890;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item1
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2670.6841,7.6327181,9228.6699};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10891;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item2
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2674.7805,7.1198716,9247.1201};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10892;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item3
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2652.1421,9.563755,9248.1768};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10893;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item4
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2668.9839,5.9942541,9280.8086};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10894;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item5
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2640.353,7.8127275,9284.3721};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10895;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item6
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2632.5598,8.2710075,9306.4619};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10896;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item7
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2662.2739,5.7529674,9308.5928};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10897;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item8
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2670.1343,5.1700764,9324.4863};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10898;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item9
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2653.8105,4.8776665,9340.0068};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10899;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item10
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2637.6091,5.3849688,9351.0059};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10900;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item11
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2546.739,40.052662,9053.3916};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10901;
+									type="ModuleCivilianPresenceUnit_F";
+								};
+								class Item12
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={3127.4233,25.024557,9206.9736};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10902;
+									type="ModuleCivilianPresenceUnit_F";
+									atlOffset=0.24841499;
+								};
+								class Item13
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2966.5906,0.69041806,8930.4072};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10904;
+									type="ModuleCivilianPresenceUnit_F";
+									atlOffset=1.1920929e-07;
+								};
+								class Item14
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={2575.8477,23.358833,9302.6514};
+									};
+									areaSize[]={0.1,-1,0.1};
+									flags=1;
+									id=10905;
+									type="ModuleCivilianPresenceUnit_F";
+									atlOffset=-9.5367432e-06;
+								};
+							};
+							id=10907;
+							atlOffset=2.8910408;
+						};
+					};
+					id=10807;
+					atlOffset=-6.2051697;
+				};
+				class Item3
+				{
+					dataType="Layer";
+					name="Bunker C-E";
+					state=1;
+					class Entities
+					{
+						items=6;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2844.9309,31.453623,9019.5371};
+								angles[]={0,2.6704214,-0};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+							};
+							id=10840;
+							type="Land_PillboxWall_01_6m_F";
+							atlOffset=0.31084824;
+						};
+						class Item1
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={2849.6145,30.593258,9023.6592};
+								angles[]={6.1716504,0.99367958,5.9734826};
+							};
+							areaSize[]={1.6699774,0,10.66093};
+							areaIsRectangle=1;
+							flags=1;
+							id=10828;
+							type="ModuleHideTerrainObjects_F";
+							atlOffset=-0.081588745;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2858.1631,30.566244,9027.1328};
+								angles[]={0,2.5527012,0};
+							};
+							side="Empty";
+							class Attributes
+							{
+							};
+							id=10843;
+							type="Land_PillboxWall_01_6m_round_F";
+							atlOffset=0.44825172;
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2854.447,30.291216,9024.6924};
+								angles[]={6.2208757,2.5754998,0.098341241};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=10847;
+							type="Land_PillboxWall_01_3m_F";
+							atlOffset=-0.31911278;
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2848.884,30.87508,9021.6289};
+								angles[]={0.065737717,2.6131401,6.1701903};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=10848;
+							type="Land_PillboxWall_01_3m_F";
+							atlOffset=0.22118187;
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2851.967,28.71771,9023.0996};
+								angles[]={0.035779249,2.6841068,0.16543975};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=10849;
+							type="Land_PillboxWall_01_3m_F";
+							atlOffset=-1.8950005;
+						};
+					};
+					id=10850;
+					atlOffset=-0.89639091;
+				};
 			};
 			id=9859;
-			atlOffset=-8.6510515;
+			atlOffset=3.6389694;
 		};
-		class Item87
+		class Item77
 		{
 			dataType="Layer";
 			name="Destroyer";
@@ -28737,7 +31737,7 @@ class Mission
 			id=5580;
 			atlOffset=1.9108868;
 		};
-		class Item88
+		class Item78
 		{
 			dataType="Group";
 			side="West";
@@ -28893,7 +31893,7 @@ class Mission
 			};
 			id=9899;
 		};
-		class Item89
+		class Item79
 		{
 			dataType="Object";
 			class PositionInfo
@@ -28910,7 +31910,7 @@ class Mission
 			id=9900;
 			type="B_T_UGV_01_rcws_olive_F";
 		};
-		class Item90
+		class Item80
 		{
 			dataType="Group";
 			side="West";
@@ -29106,7 +32106,7 @@ class Mission
 			id=9908;
 			atlOffset=2.3841858e-07;
 		};
-		class Item91
+		class Item81
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29124,7 +32124,7 @@ class Mission
 			type="B_T_UGV_01_rcws_olive_F";
 			atlOffset=2.3841858e-07;
 		};
-		class Item92
+		class Item82
 		{
 			dataType="Group";
 			side="West";
@@ -29302,7 +32302,7 @@ class Mission
 			id=9920;
 			atlOffset=-0.00065588951;
 		};
-		class Item93
+		class Item83
 		{
 			dataType="Object";
 			class PositionInfo
@@ -29320,7 +32320,7 @@ class Mission
 			type="B_T_UGV_01_rcws_olive_F";
 			atlOffset=-0.00065588951;
 		};
-		class Item94
+		class Item84
 		{
 			dataType="Layer";
 			name="Old fortress";
@@ -29532,7 +32532,7 @@ class Mission
 			id=9949;
 			atlOffset=15.915665;
 		};
-		class Item95
+		class Item85
 		{
 			dataType="Group";
 			side="Independent";
@@ -29675,7 +32675,7 @@ class Mission
 			id=9950;
 			atlOffset=7.6293945e-06;
 		};
-		class Item96
+		class Item86
 		{
 			dataType="Marker";
 			position[]={11342.346,112.971,6608.6768};
@@ -29686,7 +32686,7 @@ class Mission
 			id=9316;
 			atlOffset=0.060997009;
 		};
-		class Item97
+		class Item87
 		{
 			dataType="Layer";
 			name="Tunnel west";
@@ -29748,7 +32748,7 @@ class Mission
 			id=9985;
 			atlOffset=-0.058246613;
 		};
-		class Item98
+		class Item88
 		{
 			dataType="Layer";
 			name="Cave";
@@ -29900,7 +32900,7 @@ class Mission
 					};
 					id=10002;
 					type="Land_PierLadder_F";
-					atlOffset=1.1841431;
+					atlOffset=9.6581421;
 				};
 				class Item7
 				{
@@ -30088,7 +33088,7 @@ class Mission
 					b=3.6800616;
 					angle=93.785538;
 					id=10021;
-					atlOffset=3.2194519;
+					atlOffset=17.641479;
 				};
 				class Item17
 				{
@@ -30108,7 +33108,7 @@ class Mission
 			id=9989;
 			atlOffset=-3.7538452;
 		};
-		class Item99
+		class Item89
 		{
 			dataType="Layer";
 			name="Speedboats";
@@ -30120,7 +33120,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14209.731,0.34887394,11939.741};
+						position[]={14209.731,0.34887412,11939.741};
 						angles[]={0.0053377044,0.51195782,6.2086568};
 					};
 					side="Empty";
@@ -30132,7 +33132,7 @@ class Mission
 					};
 					id=10088;
 					type="Crows_dataterminal";
-					atlOffset=6.5267086e-06;
+					atlOffset=6.7055225e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30257,7 +33257,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14209.731,0.34273624,11952.979};
+						position[]={14209.731,0.34273642,11952.979};
 						angles[]={0.0053407075,0.51195741,6.2086601};
 					};
 					side="Empty";
@@ -30269,7 +33269,7 @@ class Mission
 					};
 					id=10191;
 					type="Crows_dataterminal";
-					atlOffset=6.5267086e-06;
+					atlOffset=6.7055225e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30550,9 +33550,9 @@ class Mission
 				};
 			};
 			id=10090;
-			atlOffset=0.0082429647;
+			atlOffset=0.0082429945;
 		};
-		class Item100
+		class Item90
 		{
 			dataType="Group";
 			side="West";
@@ -30605,7 +33605,7 @@ class Mission
 			id=10175;
 			atlOffset=0.014920473;
 		};
-		class Item101
+		class Item91
 		{
 			dataType="Object";
 			class PositionInfo
@@ -30622,7 +33622,7 @@ class Mission
 			type="B_HMG_01_A_F";
 			atlOffset=0.014920473;
 		};
-		class Item102
+		class Item92
 		{
 			dataType="Group";
 			side="West";
@@ -30674,7 +33674,7 @@ class Mission
 			};
 			id=10179;
 		};
-		class Item103
+		class Item93
 		{
 			dataType="Layer";
 			name="Player spawn";
@@ -31445,7 +34445,7 @@ class Mission
 			id=10190;
 			atlOffset=0.048287868;
 		};
-		class Item104
+		class Item94
 		{
 			dataType="Marker";
 			position[]={12649.949,-0.061999999,15350.074};
@@ -31458,7 +34458,7 @@ class Mission
 			id=10196;
 			atlOffset=52.358212;
 		};
-		class Item105
+		class Item95
 		{
 			dataType="Marker";
 			position[]={12850.057,0,14450.152};
@@ -31471,7 +34471,7 @@ class Mission
 			id=10197;
 			atlOffset=5.587954;
 		};
-		class Item106
+		class Item96
 		{
 			dataType="Marker";
 			position[]={14250.102,49.105,11949.827};
@@ -31484,7 +34484,7 @@ class Mission
 			id=10198;
 			atlOffset=52.139915;
 		};
-		class Item107
+		class Item97
 		{
 			dataType="Marker";
 			position[]={13850.318,43.629002,11949.797};
@@ -31497,7 +34497,7 @@ class Mission
 			id=10215;
 			atlOffset=42.904293;
 		};
-		class Item108
+		class Item98
 		{
 			dataType="Marker";
 			position[]={13450.105,54.908001,12150.114};
@@ -31510,7 +34510,7 @@ class Mission
 			id=10216;
 			atlOffset=52.358002;
 		};
-		class Item109
+		class Item99
 		{
 			dataType="Marker";
 			position[]={13250.087,47.534,12450.015};
@@ -31523,7 +34523,7 @@ class Mission
 			id=10217;
 			atlOffset=59.623024;
 		};
-		class Item110
+		class Item100
 		{
 			dataType="Group";
 			side="West";
@@ -31574,7 +34574,7 @@ class Mission
 			id=10237;
 			atlOffset=-0.0022888184;
 		};
-		class Item111
+		class Item101
 		{
 			dataType="Layer";
 			name="Comms Alpha";
@@ -32371,7 +35371,7 @@ class Mission
 			id=8803;
 			atlOffset=-0.04498291;
 		};
-		class Item112
+		class Item102
 		{
 			dataType="Layer";
 			name="FATA Tunnel";
@@ -32781,7 +35781,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2583.0066,1.5220279,2054.6758};
+								position[]={2583.0066,1.5220281,2054.6758};
 								angles[]={0,3.1276345,0};
 							};
 							side="Empty";
@@ -32792,7 +35792,7 @@ class Mission
 							};
 							id=10444;
 							type="BloodSplatter_01_Small_Old_F";
-							atlOffset=0.0054752827;
+							atlOffset=0.0054755211;
 						};
 						class Item21
 						{
@@ -33185,7 +36185,7 @@ class Mission
 			id=10342;
 			atlOffset=0.71080136;
 		};
-		class Item113
+		class Item103
 		{
 			dataType="Layer";
 			name="News scenes ";
@@ -33522,7 +36522,7 @@ class Mission
 							};
 							id=9530;
 							type="B_HMG_01_A_F";
-							atlOffset=1.3254623;
+							atlOffset=12.108311;
 						};
 						class Item10
 						{
@@ -33845,7 +36845,7 @@ class Mission
 												class data
 												{
 													singleType="BOOL";
-													value=1;
+													value=0;
 												};
 											};
 										};
@@ -33910,12 +36910,13 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8440.793,19.566227,10270.043};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
 									id=10726;
 									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.13622665;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -33979,7 +36980,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8497.998,19.550707,10183.799};
-										angles[]={-0,0.54105169,6.2819896};
+										angles[]={0,0.54105169,6.2819896};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -34187,7 +37188,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8514.877,19.43,10336.451};
-										angles[]={-0,0.57595813,0};
+										angles[]={0,0.57595813,0};
 									};
 									areaSize[]={0.1,-1,0.1};
 									flags=1;
@@ -34256,7 +37257,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8376.7637,19.43,10207.798};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -34325,7 +37326,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8468.3643,19.43,10152.759};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -34394,7 +37395,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8354.9004,19.451,10304.481};
-										angles[]={-0,1.5707963,6.2819896};
+										angles[]={0,1.5707963,6.2819896};
 									};
 									areaSize[]={0.1,-1,0.1};
 									flags=1;
@@ -34464,7 +37465,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8433.1494,19.43,10304.481};
-										angles[]={-0,1.5707963,6.2819896};
+										angles[]={0,1.5707963,6.2819896};
 									};
 									areaSize[]={0.1,-1,0.1};
 									flags=1;
@@ -34550,7 +37551,7 @@ class Mission
 									flags=1;
 									id=10736;
 									type="ModuleCivilianPresenceUnit_F";
-									atlOffset=2.2888184e-05;
+									atlOffset=0.036754608;
 								};
 								class Item12
 								{
@@ -34563,7 +37564,7 @@ class Mission
 									flags=1;
 									id=10737;
 									type="ModuleCivilianPresenceUnit_F";
-									atlOffset=1.335144e-05;
+									atlOffset=0.03663063;
 								};
 								class Item13
 								{
@@ -34614,7 +37615,7 @@ class Mission
 									flags=1;
 									id=10743;
 									type="ModuleCivilianPresenceUnit_F";
-									atlOffset=2.6702881e-05;
+									atlOffset=0.036645889;
 								};
 								class Item17
 								{
@@ -35106,6 +38107,7 @@ class Mission
 									flags=1;
 									id=10756;
 									type="ModuleCivilianPresenceUnit_F";
+									atlOffset=0.47392845;
 								};
 								class Item25
 								{
@@ -35118,6 +38120,7 @@ class Mission
 									flags=1;
 									id=10758;
 									type="ModuleCivilianPresenceUnit_F";
+									atlOffset=5.7220459e-06;
 								};
 								class Item26
 								{
@@ -35451,6 +38454,7 @@ class Mission
 									flags=1;
 									id=10769;
 									type="ModuleCivilianPresenceSafeSpot_F";
+									atlOffset=0.037221909;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -36202,7 +39206,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8370.2842,19.623146,10271.356};
-										angles[]={-0,0.62831855,-0};
+										angles[]={0,0.62831855,0};
 									};
 									areaSize[]={0.1,-1,0.1};
 									flags=1;
@@ -36276,7 +39280,7 @@ class Mission
 									flags=1;
 									id=10787;
 									type="ModuleCivilianPresenceSafeSpot_F";
-									atlOffset=0.00034713745;
+									atlOffset=4.4910011;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -36353,7 +39357,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8519.8887,19.43,10253.487};
-										angles[]={-0,0.59341192,0};
+										angles[]={0,0.59341192,0};
 									};
 									areaSize[]={0.1,-1,0.1};
 									flags=1;
@@ -36496,7 +39500,7 @@ class Mission
 									flags=1;
 									id=10790;
 									type="ModuleCivilianPresenceUnit_F";
-									atlOffset=2.6702881e-05;
+									atlOffset=0.03645134;
 								};
 								class Item50
 								{
@@ -36509,7 +39513,7 @@ class Mission
 									flags=1;
 									id=10791;
 									type="ModuleCivilianPresenceSafeSpot_F";
-									atlOffset=0.00032234192;
+									atlOffset=0.037000656;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -36573,7 +39577,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8401.5977,19.43,10219.142};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -36642,7 +39646,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8416.6104,19.43,10168.066};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -36711,7 +39715,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8358.5684,19.70719,10245.697};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -36780,7 +39784,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8344.1426,19.43,10250.664};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -36918,7 +39922,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8376.7637,19.43,10207.798};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -36987,7 +39991,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={8376.7637,19.43,10207.798};
-										angles[]={-0,0.54105169,0};
+										angles[]={0,0.54105169,0};
 									};
 									areaSize[]={0.1,0,0.1};
 									flags=1;
@@ -40868,7 +43872,7 @@ class Mission
 			id=10522;
 			atlOffset=-73.435394;
 		};
-		class Item114
+		class Item104
 		{
 			dataType="Object";
 			class PositionInfo
@@ -41018,7 +44022,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item115
+		class Item105
 		{
 			dataType="Object";
 			class PositionInfo
@@ -41089,7 +44093,7 @@ class Mission
 				nAttributes=4;
 			};
 		};
-		class Item116
+		class Item106
 		{
 			dataType="Group";
 			side="West";
@@ -41141,7 +44145,7 @@ class Mission
 			id=10635;
 			atlOffset=14.118799;
 		};
-		class Item117
+		class Item107
 		{
 			dataType="Group";
 			side="West";
@@ -41353,7 +44357,7 @@ class Mission
 			};
 			id=10677;
 		};
-		class Item118
+		class Item108
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -41369,11 +44373,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=22;
+			nextID=23;
 		};
 		class Links
 		{
-			items=22;
+			items=23;
 			class Item0
 			{
 				linkID=0;
@@ -41589,6 +44593,16 @@ class Mission
 				linkID=21;
 				item0=10764;
 				item1=10703;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item22
+			{
+				linkID=22;
+				item0=10808;
+				item1=10806;
 				class CustomData
 				{
 					type="Sync";
