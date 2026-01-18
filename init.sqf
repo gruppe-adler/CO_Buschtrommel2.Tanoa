@@ -100,3 +100,12 @@
     };
     [_condition, _delayedCode, _cessna] call CBA_fnc_waitUntilAndExecute;
 }, true, [], true] call CBA_fnc_addClassEventHandler;
+
+
+// react to ZEN intel being found
+["zen_modules_addIntel", {
+    params ["_title", "_text"];    
+    if (_title == "Speedboot Intel") then {
+        ["task_boats", "SUCCEEDED", false] call BIS_fnc_taskSetState;
+    };    
+}] call CBA_fnc_addEventHandler;
