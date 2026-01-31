@@ -5,5 +5,6 @@ class util {
         file = "scripts\util\functions";
         class afterDark{};
         class dropPackage{};
+        class refuel{};
     };
 };
