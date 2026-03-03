@@ -1,2 +1,2 @@
 # Introduction
-![](./pics/buschtrommel_loadpic.jpg)
+![](./pics/buschtrommel2_loadpic.jpg)
