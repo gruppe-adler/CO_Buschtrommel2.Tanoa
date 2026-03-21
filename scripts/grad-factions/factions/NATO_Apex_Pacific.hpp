@@ -49,8 +49,8 @@ class NATO_Apex_Pacific {
             LIST_1("crowsew_tfar_icom")                
           };
         addItemsToVest[] = {
-            LIST_2("SmokeShell"),
-            LIST_2("SmokeShellGreen")
+            // LIST_2("SmokeShellGreen"),
+            LIST_2("SmokeShell")
         };
         addItemsToBackpack[] = {
             // LIST_1("ACE_EntrenchingTool"),
@@ -78,10 +78,21 @@ class NATO_Apex_Pacific {
 
         // squad leader
         class Soldier_SL_F: Soldier_F {
+            primaryWeapon = "arifle_MX_GL_khk_F";   // MX with underbarrel grenade launcher
+            vest = "V_PlateCarrier1_tna_F";         // lighter vest to fit underbarrel grenades
             backpack = "TFAR_rt1523g_bwmod";
             binoculars = "Rangefinder";
+            addItemsToVest[] = {
+                LIST_7("30Rnd_65x39_caseless_khaki_mag"),
+                LIST_2("SmokeShellGreen"),
+                LIST_7("1Rnd_HE_Grenade_shell"),
+                // LIST_2("1Rnd_Smoke_Grenade_shell"),
+                LIST_2("1Rnd_SmokeRed_Grenade_shell"),
+                LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
+                LIST_2("1Rnd_SmokeOrange_Grenade_shell")
+            };
             addItemsToBackpack[] = {
-                LIST_3("30Rnd_65x39_caseless_khaki_mag_Tracer")
+                LIST_7("1Rnd_HE_Grenade_shell")
             };
         };
         
@@ -101,13 +112,12 @@ class NATO_Apex_Pacific {
             };
         };
         
-        // engineer (incl. electronic warfare)
+        // engineer
         class Engineer_F: Soldier_F {
             addItemsToBackpack[] = {
                 LIST_1("ToolKit"),
                 LIST_1("ACE_EntrenchingTool"),
-                LIST_1("ACE_wirecutter"),
-                LIST_3("DemoCharge_Remote_Mag")
+                LIST_1("ACE_wirecutter")
             };
         };
         
@@ -116,10 +126,8 @@ class NATO_Apex_Pacific {
             // backpack = "UK3CB_CSAT_G_O_B_ASS";    // force large backpack for this role
             addItemsToBackpack[] = {
                 LIST_1("ACE_DefusalKit"),
-                LIST_1("ACE_VMM3"),
-                LIST_3("APERSMine_Range_Mag"),
-                LIST_3("APERSBoundingMine_Range_Mag"),
-                LIST_3("DemoCharge_Remote_Mag")
+                LIST_1("ACE_M26_Clacker"),
+                LIST_5("DemoCharge_Remote_Mag")
             };
         };
         
@@ -157,8 +165,13 @@ class NATO_Apex_Pacific {
             primaryWeapon = "srifle_LRR_tna_LRPS_F";
             primaryWeaponMagazine = "7Rnd_408_Mag";
             primaryWeaponOptics = "optic_LRPS_tna_F";
+            binoculars = "";
             addItemsToVest[] = {
+                LIST_7("7Rnd_408_Mag"),               
                 LIST_1("ACE_RangeCard")                
+            };
+            addItemsToBackpack[] = {
+                LIST_3("7Rnd_408_Mag")
             };
         };
         
