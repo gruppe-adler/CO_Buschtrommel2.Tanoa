@@ -14,8 +14,8 @@ force crowsEW_spectrum_spectrumEnable = true;	// enable Spectrum Device
 force crowsEW_spectrum_selfTracking = true;		// show own radio emissions
 force crowsEW_spectrum_tfarSideTrack = true;	// show friendly radio emissions
 force crowsEW_spectrum_minJamSigStrength = -50;	// (in dBm); minimum signal strength necessary in Spectrum Device for jamming
-force crowsEW_spectrum_defaultClassForJammingSignal = "UK3CB_Seafox_Base,SDV_01_base_F,UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F,UAV_02_Base_lxWS,B_SAM_System_01_F,B_SAM_System_02_F,B_Ship_MRLS_01_F,B_Ship_Gun_01_F,B_AAA_System_01_F,B_GMG_01_A_F,B_HMG_01_A_F,B_T_Boat_Armed_01_minigun_F,B_W_Static_Designator_01_F,B_SAM_System_03_F";
-force crowsEW_spectrum_defaultRangesForJammingSignal = "5001,5002,2201,2202,2203,10004,5005,10006,10007,2208,2209,3009,3010,3011,3012,3013,2214,2215,3014,2217,3015";
+force crowsEW_spectrum_defaultClassForJammingSignal = "UK3CB_Seafox_Base,SDV_01_base_F,UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F,UAV_02_Base_lxWS,B_SAM_System_01_F,B_SAM_System_02_F,B_Ship_MRLS_01_F,B_Ship_Gun_01_F,B_AAA_System_01_F,B_GMG_01_A_F,B_HMG_01_A_F,B_T_Boat_Armed_01_minigun_F,B_W_Static_Designator_01_F,B_SAM_System_03_F,EF_QAV80_Base";
+force crowsEW_spectrum_defaultRangesForJammingSignal = "5001,5002,2201,2202,2203,10004,5005,10006,10007,2208,2209,3009,3010,3011,3012,3013,2214,2215,3014,2217,3015,10008";
 force crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = true;	// attach a signal to players that have a UAVterminal connected to a drone
 
 // **************************************************************************************************************************************
@@ -328,7 +328,7 @@ force zen_faction_filter_1_UK3CB_CW_US_B_LATE = false;
 force zen_faction_filter_1_UK3CB_FIA_B = false;
 force zen_faction_filter_1_UK3CB_GAF_B = false;
 force zen_faction_filter_1_UK3CB_ION_B_Desert = false;
-force zen_faction_filter_1_UK3CB_ION_B_Urban = false;
+force zen_faction_filter_1_UK3CB_ION_B_Urban = true;
 force zen_faction_filter_1_UK3CB_ION_B_Winter = false;
 force zen_faction_filter_1_UK3CB_ION_B_Woodland = false;
 force zen_faction_filter_1_UK3CB_KDF_B = false;
