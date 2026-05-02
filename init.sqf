@@ -97,6 +97,10 @@
             [_package, _freq, 5000, [ format ["morse_package_number_%1",_i], 1.1], true] call crowsew_spectrum_fnc_addsoundsequenceserver;  // add Morse code signal to package
             _cessna setVariable [format ["package%1", _i], _package, true];     // save package as variable of the plane (used to drop them later)
         };
+
+        // close hangar doors after plane moved out
+        [cessna_hangar, 2, 0] call BIS_fnc_Door;
+        [cessna_hangar, 3, 0] call BIS_fnc_Door; 
     };
     [_condition, _delayedCode, _cessna] call CBA_fnc_waitUntilAndExecute;
 }, true, [], true] call CBA_fnc_addClassEventHandler;
