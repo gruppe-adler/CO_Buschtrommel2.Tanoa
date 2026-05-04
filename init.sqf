@@ -80,7 +80,12 @@
     _cessna setPhysicsCollisionFlag false;  // disable collision with hangars until it is clear of the airport
 
     // wait until the plane is at least 20m away from any hangar
-    private _condition = { nearestObjects [_this, ["Land_Airport_01_hangar_F"], 20, true] isEqualTo [] };
+    private _condition = { 
+            params ["_cessna" ]; 
+            isEngineOn _cessna && 
+            { nearestObjects [_cessna, ["Land_Airport_01_hangar_F"], 20, true] isEqualTo [] }
+        };
+        
     private _delayedCode = {
         params ["_cessna" ];
         _cessna setPhysicsCollisionFlag true;   // re-enable collision
