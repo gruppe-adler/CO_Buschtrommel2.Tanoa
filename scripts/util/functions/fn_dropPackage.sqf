@@ -9,10 +9,27 @@ Return: none
 
 private _intelTexts = [
 "Text mit Index 0 ist leer",
-
+/************************************************************/
 "<font color='#D18D1F' size='14'>Tagesbefehl</font> <br/>
-Text mit Index 1",
-
+<br/>
+<font color='#D18D1F' size='12'>Lage</font>  <br/>
+Feind verdaut noch immer den Schock der schweren Schäden bei ""Comms Alpha"", ""Comms Bravo"" sowie der Verluste im Hafen, bisher keine koordinierte Reaktion erkennbar <br/>
+<br/>
+<font color='#D18D1F' size='12'>Auftrag unverändert</font> <br/>
+- Überleben <br/>
+- Aufklären der Umgebung aus sicherer Stellung mit Schwerpunkt auf NATO-Kräfte bei Aéroport de Tanoa <br/>
+- Aufnehmen und Ansammeln überstellter UAVs <br/>
+- Planung nächster Angriffswelle auf Aéroport de Tanoa <br/>
+- <font color='#D18D1F' size='12'>Tagesaktueller Zusatzauftrag</font> <br/> 
+  - After Action Report zur kürzlich erfolgten Angriffswelle verfassen. <br/> 
+  - Was lief gut? Was schlecht? <br/> 
+  - Handlungsempfehlungen für nächste Welle geben <br/>
+<br/>
+<font color='#D18D1F' size='12'>Lieferschein</font> (deckt sich mit Inhalt des Packets) <br/>
+Sold, Sprengstoff, Installationsmateriallien <br/>
+<br/>
+<font color='#ff0000'>Vernichten Sie dieses Schreiben nachdem sie es gelesen haben!</font> <br/>",
+/************************************************************/
 "<font color='#D18D1F' size='14'>Tagesbefehl</font> <br/>
 <br/>
 <font color='#D18D1F' size='12'>Lage</font>  <br/>
@@ -24,16 +41,44 @@ Feind patrouilliert weiterhin mit seinen Überwasserdrohnen; Versorgung mit schw
 - Umgebende Zivilbevölkerung weiterhin mit medizinischer Versorgung wohlgestimmt halten. Vorzugsbehandlung für Junge Männer und Frauen die sich unserer Sachen anschließen, sowie deren Verwandschaft <br/>
 - Kräfte ansammeln und ausbilden <br/>
 <br/>
-<font color='#D18D1F' size='12'>Lieferschein</font> <br/>
+<font color='#D18D1F' size='12'>Lieferschein</font> (deckt sich mit Inhalt des Packets) <br/>
 Medikamente und Blutkonserven wie angefordert, letztere zu verbrauchen binnen der nächsten Stunden <br/>
 <br/>
 <font color='#ff0000'>Vernichten Sie dieses Schreiben nachdem sie es gelesen haben!</font> <br/>",
-
+/************************************************************/
 "<font color='#D18D1F' size='14'>Tagesbefehl</font> <br/>
-Text mit Index 3",
-
+<br/>
+<font color='#D18D1F' size='12'>Lage</font>  <br/>
+Feind verdaut noch immer den Schock der schweren Schäden bei ""Comms Alpha"", ""Comms Bravo"" sowie der Verluste im Hafen, bisher keine koordinierte Reaktion erkennbar <br/>
+<br/>
+<font color='#D18D1F' size='12'>Auftrag unverändert</font> <br/>
+- Überleben <br/>
+- Aufklären der Tagebaumine mit beigestelltem Gerät, Instandhaltung selbigen Geräts <br/>
+- <font color='#D18D1F' size='12'>Tagesaktueller Zusatzauftrag</font> <br/>
+  - Klarmachen zur Wachablösung um ca. 02:00 <br/>
+<br/>
+<font color='#D18D1F' size='12'>Lieferschein</font> (deckt sich mit Inhalt des Packets) <br/>
+Sold, Batterien <br/>
+<br/>
+<font color='#ff0000'>Vernichten Sie dieses Schreiben nachdem sie es gelesen haben!</font> <br/>",
+/************************************************************/
 "<font color='#D18D1F' size='14'>Tagesbefehl</font> <br/>
-Text mit Index 4"
+<br/>
+<font color='#D18D1F' size='12'>Lage</font>  <br/>
+Feind patrouilliert weiterhin mit seinen Überwasserdrohnen; Versorgung mit schweren Gütern über Wasser weiterhin zu riskant; Ausweichen diesbzgl. auf Milchkuh <br/>
+<br/>
+<font color='#D18D1F' size='12'>Auftrag unverändert</font> <br/>
+- Überleben <br/>
+- Aufklären der Umgebung; Schwerpunkte: Blue Pearl industrial port, La Rochelle aerodrome <br/>
+- Tarngeschäft mit Schiffsverschrottung aufrecht erhalten <br/>
+- Aufnehmen und Einquartieren überstellter Kräfte, sowie deren weitere Ausbildung <br/>
+- Erprobung der beigestellten Scharfschützendrohne (in Dämmerlicht oder bei Nacht) <br/>
+- Planung für Beitrag der eigenen unterstellten Kräfte zur Operation ""Mayor bummer"" <br/>
+<br/>
+<font color='#D18D1F' size='12'>Lieferschein</font> (deckt sich mit Inhalt des Packets) <br/>
+Sold für unterstellte Kräfte, Zünder, Medikamente <br/>
+<br/>
+<font color='#ff0000'>Vernichten Sie dieses Schreiben nachdem sie es gelesen haben!</font> <br/>"
 ];
 
 params ["_trigger"];
