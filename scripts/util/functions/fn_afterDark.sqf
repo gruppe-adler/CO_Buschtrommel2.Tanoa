@@ -7,7 +7,7 @@ Return: none
 
 *///////////////////////////////////////////////
 
-if !(hasInterface) exitWith {};
+if (!hasInterface || dayTime > 18.5) exitWith {};
 
 0 spawn {
 	private _fadeOutDuration = 1.5;	
@@ -30,4 +30,13 @@ if !(hasInterface) exitWith {};
 	waitUntil { scriptDone _textOnScreen };
 
 	["BlackScreen_jump2afterDark", true, 3] call BIS_fnc_blackIn;
+	
+	
+	// clean up planes (might disturb the immersion if they are still around after the time skip)
+	{
+		if (side _x != west) then { 
+			deleteVehicleCrew _x;
+			deleteVehicle _x;
+		};
+	} forEach [ambient_plane, drop_plane, airport_stomper];
 }
