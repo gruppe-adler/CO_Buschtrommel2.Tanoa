@@ -50,6 +50,8 @@
     params ["_sdv"];
     
     diag_log "Setting up drone SDV";
+    
+    _sdv lock 2;    // lock doors so noone can get in or out
 
     // need to wait for the group to be assigned to the SDV
     private _delayedCode = {
@@ -67,6 +69,24 @@
         _sdv swimInDepth -3;
     };
     [_delayedCode, [_sdv], 5] call CBA_fnc_waitAndExecute;
+
+
+    // add intel action to SDV
+    [_sdv, 0, false, 0, "Untersuche...", [], 2, "U-Boot",
+    "<br/>
+Dieses Mini-U-Boot ist ein umgebautes SDV (Swimmer Delivery Vehicle). <br/>
+<img src='\A3\EditorPreviews_F\Data\CfgVehicles\I_SDV_01_F.jpg' width='370' height='185' /> <br/>
+Es wurde für unbemannten Betrieb umgerüstet und besteht zu größten Teilen aus Stauraum für Flüssigkeiten (wie Treibstoff) und andere Ladung. <br/>
+<br/>
+Dem Massenspeicher konnte noch entnommen werden, dass es zuletzt auf dem CSAT-Zerstörer 'Seeadler' weit nördlich von Tanoa beladen wurde. <br/>
+Von dort ist es, unterhalb der Periskoptiefe, ohne Datenverbindung zur Kommandostelle, einer Marschroute ins Archipel von Tanoa gefolgt. <br/>
+Letzte Nacht hat es, zusammen mit anderen U-Booten am Meeresgrund bei <marker name='marker_041100'>Grid 041100</marker> verbracht.
+<img src='pics\sdv_on_seabed.jpg' width='370' height='185' /> <br/>
+<br/>
+Es hatte die programatische Anweisung nach Sonnenuntergang selbstständig, entlang des Meeresbodens, nach <marker name='marker_041103'>Grid 041103</marker> zu verlegen, dort auf Periskoptiefe zu gehen und auf weitere Kommandos zu lauschen. <br/>
+Solche Kommandos kamen alsbald von einer Kontrollstation bei <marker name='marker_020101'>Grid 020101</marker>. <br/>
+Leider lassen sich die genauen Kommandos nicht entschlüsseln. <br/>
+"] call zen_modules_fnc_addIntelAction;
 
 }, true, [], true] call CBA_fnc_addClassEventHandler;
 
