@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=1.5707964;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=12536;
+		nextID=12598;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=12676;
+		nextID=12677;
 	};
 	class Camera
 	{
-		pos[]={2090.2344,54.278805,10062.055};
-		dir[]={-0.50081354,-0.60601091,0.61801016};
-		up[]={-0.38154009,0.79545629,0.47082523};
-		aside[]={0.77692533,0,0.62959272};
+		pos[]={2227.054,141.58299,9986.4355};
+		dir[]={-0.68226463,-0.52291429,0.51117396};
+		up[]={-0.41855058,0.85229975,0.31359038};
+		aside[]={0.59967393,1.3425597e-06,0.80038375};
 	};
 };
 binarizationWanted=0;
@@ -9087,7 +9087,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={7018.5737,1.5159372,7381.2993};
+						position[]={7018.5737,1.5159373,7381.2993};
 						angles[]={0.063912325,2.9153469,6.1089697};
 					};
 					side="Empty";
@@ -9098,7 +9098,7 @@ class Mission
 					};
 					id=11626;
 					type="Land_Wreck_Slammer_hull_F";
-					atlOffset=0.00013011694;
+					atlOffset=0.00013023615;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25241,7 +25241,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14209.731,0.3488912,11939.741};
+						position[]={14209.731,0.34889129,11939.741};
 						angles[]={0.0053377044,0.51195782,6.2086568};
 					};
 					side="Empty";
@@ -25253,7 +25253,7 @@ class Mission
 					};
 					id=10088;
 					type="Crows_dataterminal";
-					atlOffset=2.3782253e-05;
+					atlOffset=2.387166e-05;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25378,7 +25378,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14209.731,0.3427535,11952.979};
+						position[]={14209.731,0.34275359,11952.979};
 						angles[]={0.0053407075,0.51195741,6.2086601};
 					};
 					side="Empty";
@@ -25390,7 +25390,7 @@ class Mission
 					};
 					id=10191;
 					type="Crows_dataterminal";
-					atlOffset=2.3782253e-05;
+					atlOffset=2.387166e-05;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25671,7 +25671,7 @@ class Mission
 				};
 			};
 			id=10090;
-			atlOffset=0.0082443058;
+			atlOffset=0.0082443357;
 		};
 		class Item53
 		{
@@ -28247,7 +28247,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2583.0066,1.5220509,2054.6758};
+								position[]={2583.0066,1.522051,2054.6758};
 								angles[]={0,3.1276345,0};
 							};
 							side="Empty";
@@ -28258,7 +28258,7 @@ class Mission
 							};
 							id=10444;
 							type="BloodSplatter_01_Small_Old_F";
-							atlOffset=0.0054982901;
+							atlOffset=0.0054984093;
 						};
 						class Item21
 						{
@@ -42026,7 +42026,7 @@ class Mission
 			name="Rebel hideouts";
 			class Entities
 			{
-				items=15;
+				items=16;
 				class Item0
 				{
 					dataType="Layer";
@@ -47962,7 +47962,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12810.744,-0.4442234,14416.76};
+										position[]={12810.744,-0.44422328,14416.76};
 										angles[]={0,5.2851014,0};
 									};
 									side="Empty";
@@ -47972,7 +47972,7 @@ class Mission
 									};
 									id=5263;
 									type="Land_Molo_drevo";
-									atlOffset=1.1420416;
+									atlOffset=1.1420417;
 								};
 								class Item1
 								{
@@ -48237,7 +48237,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12802.089,1.9186146,14384.007};
+										position[]={12802.089,1.9186147,14384.007};
 										angles[]={0.039985489,2.0096245,6.2591867};
 									};
 									side="Empty";
@@ -48248,7 +48248,7 @@ class Mission
 									};
 									id=7396;
 									type="Land_FishingGear_01_F";
-									atlOffset=4.1604042e-05;
+									atlOffset=4.1723251e-05;
 								};
 								class Item17
 								{
@@ -48377,7 +48377,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12818.314,1.3958172,14404.758};
+										position[]={12818.314,1.3958173,14404.758};
 										angles[]={0,2.7392769,0};
 									};
 									side="Empty";
@@ -48387,7 +48387,7 @@ class Mission
 									};
 									id=7406;
 									type="Land_UWreck_FishingBoat_F";
-									atlOffset=0.49504161;
+									atlOffset=0.49504173;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -48411,7 +48411,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12786.626,0.49640486,14413.209};
+										position[]={12786.626,0.49640495,14413.209};
 										angles[]={0.09834861,0.59069186,6.2219291};
 									};
 									side="Empty";
@@ -48422,7 +48422,7 @@ class Mission
 									};
 									id=7409;
 									type="Land_Boat_01_abandoned_blue_F";
-									atlOffset=0.0029798672;
+									atlOffset=0.0029799566;
 								};
 								class Item26
 								{
@@ -48447,7 +48447,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12783.063,0.56955606,14414.636};
+										position[]={12783.063,0.56955618,14414.636};
 										angles[]={0,0.54795563,0};
 									};
 									side="Empty";
@@ -48458,7 +48458,7 @@ class Mission
 									};
 									id=7410;
 									type="Land_Boat_01_abandoned_red_F";
-									atlOffset=0.00020821393;
+									atlOffset=0.00020833313;
 								};
 								class Item28
 								{
@@ -48498,7 +48498,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12843.262,0.40107894,14399.136};
+										position[]={12843.262,0.40107906,14399.136};
 										angles[]={0.12468632,3.6062689,6.2591867};
 									};
 									side="Empty";
@@ -48509,7 +48509,7 @@ class Mission
 									};
 									id=7414;
 									type="Land_Boat_04_wreck_F";
-									atlOffset=4.1604042e-05;
+									atlOffset=4.1723251e-05;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -48533,7 +48533,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={12837.929,1.9274782,14373.699};
+										position[]={12837.929,1.9274783,14373.699};
 										angles[]={0.026668631,2.4572315,6.2751913};
 									};
 									side="Empty";
@@ -48544,7 +48544,7 @@ class Mission
 									};
 									id=7412;
 									type="Land_RowBoat_V2_F";
-									atlOffset=-0.0039583445;
+									atlOffset=-0.0039582253;
 								};
 								class Item31
 								{
@@ -52189,7 +52189,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3250.7495,0.008089304,9210.0557};
+										position[]={3250.7495,0.0080894232,9210.0557};
 										angles[]={0,4.9147778,0};
 									};
 									side="Empty";
@@ -52200,7 +52200,7 @@ class Mission
 									};
 									id=10280;
 									type="I_SDV_01_F";
-									atlOffset=0.080878615;
+									atlOffset=0.080878735;
 								};
 								class Item1
 								{
@@ -52635,13 +52635,13 @@ class Mission
 											dataType="Logic";
 											class PositionInfo
 											{
-												position[]={2545.5959,18.65773,9335.376};
+												position[]={2541.4243,19.096376,9333.3105};
+												angles[]={-0,0,6.282495};
 											};
 											areaSize[]={0.1,-1,0.1};
 											flags=1;
 											id=10818;
 											type="ModuleCivilianPresenceSafeSpot_F";
-											atlOffset=0.06568718;
 											class CustomAttributes
 											{
 												class Attribute0
@@ -56719,7 +56719,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={2514.2822,-0.98112416,9399.5791};
+										position[]={2514.2822,-0.98112404,9399.5791};
 										angles[]={0.41755986,5.8576484,0.24221528};
 									};
 									side="Empty";
@@ -56729,7 +56729,7 @@ class Mission
 									};
 									id=12499;
 									type="PowerCable_01_StraightLong_F";
-									atlOffset=-0.017273247;
+									atlOffset=-0.017273128;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -56766,7 +56766,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={2515.9233,0.4110125,9395.6533};
+										position[]={2515.9233,0.41101259,9395.6533};
 										angles[]={0.15589587,2.7351675,0.067696236};
 									};
 									side="Empty";
@@ -56776,7 +56776,7 @@ class Mission
 									};
 									id=12502;
 									type="b_Rhizophora_F";
-									atlOffset=-0.46345049;
+									atlOffset=-0.4634504;
 								};
 								class Item13
 								{
@@ -57635,7 +57635,7 @@ class Mission
 					state=1;
 					class Entities
 					{
-						items=6;
+						items=8;
 						class Item0
 						{
 							dataType="Object";
@@ -57674,8 +57674,8 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2073.7354,0.23413292,10091.141};
-								angles[]={6.1823497,5.4490905,6.1981707};
+								position[]={2076.875,-0.34833008,10088};
+								angles[]={0,2.3294036,0};
 							};
 							side="Empty";
 							flags=5;
@@ -57684,70 +57684,39 @@ class Mission
 							};
 							id=12481;
 							type="Land_PowerCable_submarine_F";
-							atlOffset=0.015273064;
+							atlOffset=-0.375;
 						};
 						class Item3
 						{
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2061.5107,0.77165967,10102.173};
-								angles[]={0,2.2938621,0};
+								position[]={2037.1544,12.389943,10123.87};
+								angles[]={0,4.7908545,0};
 							};
 							side="Empty";
+							flags=5;
 							class Attributes
 							{
 							};
-							id=12487;
-							type="PowerCable_01_StraightShort_F";
-							atlOffset=0.17007655;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="Cap_1_hide";
-									expression="_this animateSource ['Cap_1_hide',_value,true]";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="Cap_2_hide";
-									expression="_this animateSource ['Cap_2_hide',_value,true]";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=1;
-										};
-									};
-								};
-								nAttributes=2;
-							};
+							id=12529;
+							type="Land_TTowerSmall_2_F";
 						};
 						class Item4
 						{
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2087.3125,-2.0165813,10078.829};
-								angles[]={1.6733693,3.6089082,5.6218452};
+								position[]={2063.4905,0.55252451,10100.826};
+								angles[]={4.6769657,4.5946732,0.76387131};
 							};
 							side="Empty";
-							flags=4;
 							class Attributes
 							{
 							};
-							id=12490;
-							type="PowerCable_01_CurveLong_F";
-							atlOffset=-0.58874023;
+							id=12584;
+							type="PowerCable_01_SBend_F";
+							atlOffset=0.12214994;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -57784,24 +57753,1013 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={2037.1544,12.389943,10123.87};
-								angles[]={0,4.7908545,0};
+								position[]={2061.4546,0.11993407,10102.126};
+								angles[]={4.920249,2.1430035,0.63783032};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12585;
+							type="PowerCable_01_CurveShort_F";
+							atlOffset=-0.4866091;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2058.9878,0.64027405,10103.975};
+								angles[]={6.2698579,2.2268074,1.6734703e-10};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12587;
+							type="b_Rhizophora_F";
+							atlOffset=-1.1795515;
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2065.4888,1.1874629,10098.461};
+								angles[]={3.1029692,3.9708374,6.2722745};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12597;
+							type="Land_Boat_05_wreck_F";
+							atlOffset=-0.025086164;
+						};
+					};
+					id=12491;
+					atlOffset=-0.17770362;
+				};
+				class Item15
+				{
+					dataType="Layer";
+					name="Underwater cables";
+					state=1;
+					class Entities
+					{
+						items=31;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2381.8445,-18.8486,9608.8252};
+								angles[]={4.6628294,1.6075467,0.98375219};
+							};
+							side="Empty";
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12553;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=0.095134735;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2354.3457,-21.12281,9650.376};
+								angles[]={4.6530776,1.6256744,1.0441023};
+							};
+							side="Empty";
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12558;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=0.36837006;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2328.1536,-22.230722,9690.623};
+								angles[]={4.7048202,1.7090893,1.05696};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12560;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=-0.33081436;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2464.2979,-9.9874935,9482.1689};
+								angles[]={0.60648495,5.4608059,5.398016};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12541;
+							type="PowerCable_01_SBend_F";
+							atlOffset=0.016694069;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2425.6804,-13.953234,9541.7891};
+								angles[]={1.5216423,1.5073909,5.2552319};
+							};
+							side="Empty";
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12548;
+							type="PowerCable_01_SBend_F";
+							atlOffset=0.63901901;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2406.052,-18.371906,9573.5684};
+								angles[]={6.1861959,5.7175484,6.1882815};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12550;
+							type="PowerCable_01_StraightLong_F";
+							atlOffset=-0.20672417;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2509.6819,-2.7110133,9410.9863};
+								angles[]={0,5.7152205,0};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12536;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.5;
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2492.5391,-5.8100133,9438.043};
+								angles[]={0,5.7152128,-0};
 							};
 							side="Empty";
 							flags=5;
 							class Attributes
 							{
+								disableSimulation=1;
 							};
-							id=12529;
-							type="Land_TTowerSmall_2_F";
+							id=12537;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=-0.08425045;
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2475.3962,-8.9090137,9465.0996};
+								angles[]={0,5.7152128,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12539;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=-0.09975338;
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2454.3513,-10.970276,9497.8555};
+								angles[]={0,5.7152128,-0};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12540;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.49319458;
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2437.1978,-13.846171,9524.9287};
+								angles[]={6.2714877,5.7152619,6.2757235};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12542;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.26032829;
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2415.875,-15.75,9557.375};
+								angles[]={0.048660852,5.7160239,0.031026961};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12543;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.81443787;
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2395.25,-18.743395,9588.75};
+								angles[]={6.2391849,5.653451,6.2551308};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12546;
+							type="Land_PowerCable_submarine_F";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2371.875,-19.25,9624.5};
+								angles[]={0,5.7175417,0};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12551;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=1.2173729;
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2344.5,-21.125,9666.125};
+								angles[]={6.2658906,5.7176495,6.2722125};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12554;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.53760719;
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2318.375,-21.875,9706.375};
+								angles[]={6.2520957,5.7178717,6.263463};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12557;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=1.4876595;
+						};
+						class Item16
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2294.75,-23.125,9744.625};
+								angles[]={6.2799921,5.717586,6.281167};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12562;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.20137215;
+						};
+						class Item17
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2304.5745,-22.889713,9728.9121};
+								angles[]={4.6670914,1.6526017,1.0412486};
+							};
+							side="Empty";
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12563;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=0.1039505;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item18
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2270,-22.625,9784.375};
+								angles[]={6.2648306,2.5761094,6.2715392};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12564;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.70838547;
+						};
+						class Item19
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2245.625,-19.625,9826.125};
+								angles[]={6.2648306,2.5761094,6.2715392};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12565;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.54097176;
+						};
+						class Item20
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2235.7932,-19.028599,9841.7529};
+								angles[]={1.5385028,4.8807697,5.2846394};
+							};
+							side="Empty";
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12566;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=0.22023392;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item21
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2220.5,-17.583344,9867.75};
+								angles[]={6.2648306,2.5761094,6.2715392};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12567;
+							type="Land_PowerCable_submarine_F";
+						};
+						class Item22
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2210.5837,-16.926197,9883.3604};
+								angles[]={1.7699374,4.6610665,5.2639055};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12568;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=-0.46915054;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item23
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2194,-13.75,9910.75};
+								angles[]={0.0014615606,2.5760036,0.00093106};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12569;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.31201172;
+						};
+						class Item24
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2184.1721,-13.460506,9926.4707};
+								angles[]={1.621712,4.780602,5.2409439};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12570;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=-0.44479942;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item25
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2167.125,-11.25,9956.5};
+								angles[]={0.044681989,2.5766358,0.028348899};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12571;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.067051888;
+						};
+						class Item26
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2157.2585,-11.950038,9972.1582};
+								angles[]={1.8407646,4.6605597,5.2187252};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12572;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=-1.0903883;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item27
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2140.5,-7.875,9998.125};
+								angles[]={6.266974,2.5760846,6.2729034};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12573;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.064655781;
+						};
+						class Item28
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2130.6453,-7.2132697,10013.808};
+								angles[]={1.6640115,4.7302985,5.2495003};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12574;
+							type="PowerCable_01_CurveLong_F";
+							atlOffset=-0.51447105;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="Cap_1_hide";
+									expression="_this animateSource ['Cap_1_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="Cap_2_hide";
+									expression="_this animateSource ['Cap_2_hide',_value,true]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item29
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2116,-5.625,10036.625};
+								angles[]={0.027267464,2.5762372,0.017312333};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12575;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.045293808;
+						};
+						class Item30
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2098.2009,-3.1886299,10063.307};
+								angles[]={0.0073062615,2.5238435,0.0052638687};
+							};
+							side="Empty";
+							flags=1;
+							class Attributes
+							{
+								disableSimulation=1;
+							};
+							id=12576;
+							type="Land_PowerCable_submarine_F";
+							atlOffset=0.2894268;
 						};
 					};
-					id=12491;
-					atlOffset=0.097766519;
+					id=12561;
+					atlOffset=1.0475292;
 				};
 			};
 			id=11121;
-			atlOffset=46.009781;
+			atlOffset=34.216431;
 		};
 		class Item80
 		{
@@ -59720,7 +60678,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={13288.537,4.2216702,12399.11};
+								position[]={13288.537,4.2216706,12399.11};
 								angles[]={0,5.4998116,0};
 							};
 							side="Empty";
@@ -59730,7 +60688,7 @@ class Mission
 							};
 							id=5786;
 							type="SatelliteAntenna_01_Small_Mounted_Sand_F";
-							atlOffset=1.1621203;
+							atlOffset=1.1621208;
 						};
 						class Item5
 						{
@@ -61979,7 +62937,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3166.9055,1.2195802,11016.021};
+				position[]={3166.9055,1.2195803,11016.021};
 				angles[]={6.1424861,6.0112848,6.2391906};
 			};
 			side="Empty";
@@ -61989,7 +62947,7 @@ class Mission
 			};
 			id=12435;
 			type="UK3CB_CHC_C_Small_Boat_Wood";
-			atlOffset=0.044533491;
+			atlOffset=0.04453361;
 		};
 		class Item101
 		{
