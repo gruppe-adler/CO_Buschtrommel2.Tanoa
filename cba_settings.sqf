@@ -163,6 +163,61 @@ cba_ui_StorePasswords = 1;
 // GRAD Save Markers
 GRAD_saveMarkers_setting_canBeOpened = 1;
 
+
+
+// GRAD Civilians
+force grad_civs_main_enabled = false;
+/*
+force grad_civs_cars_animalTransportChance = 0;
+force grad_civs_transit_vehicles = "[""C_Offroad_01_covered_F"",""UK3CB_C_Pickup"",""UK3CB_C_Hilux_Open"",""UK3CB_C_Hilux_Closed""]";
+force grad_civs_transit_maxVehiclesInTransit = 5;
+// deactivate all spawns but "transit"
+force grad_civs_patrol_maxCivsOnFoot = 0;
+force grad_civs_voyage_maxCivsInVehicles = 0;
+force grad_civs_residents_maxCivsResidents = 0;
+
+
+grad_civs_lifecycle_civClasses = "[]";
+grad_civs_gta_enabled = false;
+grad_civs_activities_panicCooldown = "[15, 120, 240]";
+grad_civs_cars_animalTransportVehicles = "";
+grad_civs_cars_automaticVehicleGroupSize = true;
+grad_civs_cars_globalSpeedLimit = 50;
+grad_civs_cars_townSpeedLimit = 30;
+grad_civs_cars_vehicles = "[""C_Van_01_fuel_F"",""C_Hatchback_01_F"",""C_Truck_02_fuel_F"",""C_Truck_02_covered_F"",""C_Offroad_01_F"",""C_SUV_01_F"",""C_Van_01_transport_F"",""C_Van_01_box_F""]";
+grad_civs_diagnostics_showFps = false;
+grad_civs_diagnostics_showInfoLine = false;
+grad_civs_diagnostics_showMisc = false;
+grad_civs_diagnostics_showOnMap = false;
+grad_civs_diagnostics_showPinkArrows = false;
+grad_civs_diagnostics_showSpawnAttempts = false;
+grad_civs_diagnostics_showSpeedLimitsOnMap = false;
+grad_civs_lifecycle_cleanupCorpses = true;
+grad_civs_lifecycle_minCivOwnerFps = 30;
+grad_civs_lifecycle_minCivUpdateTime = 3;
+grad_civs_lifecycle_minServerFps = 40;
+grad_civs_lifecycle_smMultiplicator = 1;
+grad_civs_lifecycle_spawnCandidateHeightLimit = 200;
+grad_civs_lifecycle_spawnCandidateLimitEnabled = true;
+grad_civs_lifecycle_spawnCandidateSpeedLimit = 100;
+grad_civs_lifecycle_spawnOnlyWithPlayers = true;
+grad_civs_lifecycle_spawnRate = 0.5;
+grad_civs_loadout_backpackProbability = 0.5;
+grad_civs_loadout_backpacks = "[]";
+grad_civs_loadout_clothes = "[]";
+grad_civs_loadout_faces = "[]";
+grad_civs_loadout_goggles = "[]";
+grad_civs_loadout_headgear = "[]";
+grad_civs_mimikry_enabled = true;
+grad_civs_patrol_initialGroupSize = 3;
+grad_civs_patrol_spawnDistancesOnFoot = "[1000, 4500]";
+grad_civs_residents_chatTime = 20;
+grad_civs_residents_meetNeighborCooldown = 150;
+grad_civs_residents_spawnDistancesResidents = "[500,  1000]";
+grad_civs_voyage_maxTravelRadius = 0;
+grad_civs_voyage_spawnDistancesInVehicles = "[1500, 6000]";
+*/
+
 // TFAR - Global settings
 // TFAR_AICanHearSpeaker = false;
 // TFAR_allowDebugging = true;
