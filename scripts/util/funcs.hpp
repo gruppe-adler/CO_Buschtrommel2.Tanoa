@@ -6,6 +6,7 @@ class util {
         class afterDark{};
         class carryPackage{};
         class dropPackage{};
+        class prepareCessna{};
         class prepareDemolitionDrone{};
         class prepareSniperDrone{};
         class prepareSpectrumDevice{};

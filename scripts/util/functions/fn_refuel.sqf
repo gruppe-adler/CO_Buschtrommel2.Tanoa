@@ -11,7 +11,7 @@ params ["_vehicle"];
 
 private _lowerLimit = 0.65;
 if (fuel _vehicle < _lowerLimit) then {
-	_vehicle setFuel _lowerLimit;	// refuel
+    [_vehicle, _lowerLimit] remoteExec ["setFuel", _vehicle];   // refuel (call where vehicle is local)
 };
 
 // log refueling on server

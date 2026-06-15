@@ -83,22 +83,29 @@ Sold für unterstellte Kräfte, Zünder, Medikamente <br/>
 
 params ["_trigger"];
 
-private _text = triggerText _trigger;
-diag_log _text;
+private _cessna = (list _trigger) select { _x isKindOf "UK3CB_Cessna_172_Base" } select 0;
 
+if (!local _cessna) exitWith { diag_log format ["fn_dropPackage.sqf: Cessna not local. Ignoring package drop"]; };
+
+private _text = triggerText _trigger;
 private _triggerNameTokens = _text splitString " ";	// ["Drop","package","1"]
 private _packageVarName = _triggerNameTokens select [1, 2] joinString "";	// "package1", "package2", etc.
 
-private _cessna = (list _trigger) select { _x isKindOf "UK3CB_Cessna_172_Base" } select 0;
 private _package = _cessna getVariable [_packageVarName, objNull];
+_cessna setVariable [_packageVarName, nil, true];     // reset/remove variable to prevent repeated drops when the Cessna cycles
 if (isNull _package) exitWith { diag_log format ["Package variable %1 not found on %2", _packageVarName, _cessna]; };
 
-{ _x addCuratorEditableObjects [[_package], false];} forEach allCurators;
-_package hideObjectGlobal false;	// make package visible when dropped
-detach _package;
-_package setVelocity (velocity _cessna);
+diag_log _text;   // e.g. "Drop package 1"
+[_package, { { _x addCuratorEditableObjects [[_this], false] } forEach allCurators; }] remoteExec ["call", 2];  // make object visible to Zeus
+[_package, false] remoteExec ["hideObjectGlobal", 2];   // make package visible when dropped
+detach _package;  // actually drop package
+[_package, _cessna] spawn {
+    params ["_package", "_cessna"];
+    sleep 0.1;  // delay as a workaround for setting velocity not having the desired effect  without it
+    [_package, (velocity _cessna)] remoteExec ["setVelocity", _package];   // give package the same velocity as the plane (call where package is local)
+};
 
 [_package, true] call ace_dragging_fnc_setCarryable;	// make package carryable with ACE (because package tends to get stuck in trees)
 
 private _textIndex = (_triggerNameTokens#2  call BIS_fnc_parseNumber);
-[_package, 0, false, 0, "Untersuche...", [], 2, _text, _intelTexts#_textIndex] call zen_modules_fnc_addIntelAction;
+[_package, 0, false, 0, "Untersuche...", [], 2, _text, _intelTexts#_textIndex] remoteExec ["zen_modules_fnc_addIntelAction", -2];   // add a intel hold action (call on all clients)
