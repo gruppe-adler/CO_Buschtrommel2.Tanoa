@@ -4,6 +4,7 @@ class util {
     class functions {
         file = "scripts\util\functions";
         class afterDark{};
+        class boardTroops{};
         class carryPackage{};
         class dropPackage{};
         class prepareCessna{};

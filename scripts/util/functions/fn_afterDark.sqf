@@ -7,14 +7,16 @@ Return: none
 
 *///////////////////////////////////////////////
 
-if (!hasInterface || dayTime > 18.5) exitWith {};
+if (dayTime > 18.5) exitWith {};
 
 0 spawn {
 	private _fadeOutDuration = 1.5;	
 	["BlackScreen_jump2afterDark", true, _fadeOutDuration] call BIS_fnc_blackOut;
 	sleep _fadeOutDuration;
 
-	skipTime ((18.5 - dayTime + 24) % 24); // skip forward to a specific time, irrespective of the current mission time
+	if (isServer) then {
+		skipTime ((18.5 - dayTime + 24) % 24); // skip forward to a specific time, irrespective of the current mission time
+	};
 
 	private _textOnScreen = [
 		[
@@ -38,5 +40,5 @@ if (!hasInterface || dayTime > 18.5) exitWith {};
 			deleteVehicleCrew _x;
 			deleteVehicle _x;
 		};
-	} forEach [ambient_plane, drop_plane, airport_stomper];
+	} forEach [ambient_plane, drop_plane, airport_stomper, news_heli];
 }

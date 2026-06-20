@@ -10,7 +10,6 @@ enableSentences false;  // disable radio transmissions to be heard and seen on s
 
 
 // ACE menu with Zeus utilities
-buschtrommel2_board_troops = false;    // starts troop boarding sequence
 private _zeusUtilAction = ["zeusUtils","Zeus Utils","\A3\Ui_F_Curator\Data\Logos\arma3_zeus_icon_ca.paa",{},{!isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 private _spawnFlareAction = ["spawnFlare","Spawn Flare","\a3\Modules_F_Curator\Data\portraitFlareGreen_ca.paa",{ [getPos player vectorAdd [0, 0, 150]] call UTIL_fnc_spawnFlare;  },{!isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 private _toggleJammerAction = ["toggleJammer",  "Toggle Jammer","\A3\ui_f\data\map\mapcontrol\Transmitter_CA.paa", { 
@@ -19,8 +18,8 @@ private _toggleJammerAction = ["toggleJammer",  "Toggle Jammer","\A3\ui_f\data\m
         } forEach [jammer1, jammer2, jammer3, jammer4];
     },{!isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 private _finaleAction = ["finale","Finale","\A3\ui_f\data\map\markers\military\end_CA.paa",{},{!buschtrommel2_board_troops && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
-private _boardTroopsAction = ["boardTroops","Board Troops","\A3\ui_f\data\igui\cfg\simpleTasks\types\takeoff_ca.paa",{ buschtrommel2_board_troops = true;  },{!buschtrommel2_board_troops && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
-private _afterDarkAction = ["afterDark",  "Skip time to after dark","\A3\ui_f\data\igui\cfg\simpleTasks\types\wait_ca.paa", { call UTIL_fnc_afterDark; },{dayTime < 18.5 && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+private _boardTroopsAction = ["boardTroops","Board Troops","\A3\ui_f\data\igui\cfg\simpleTasks\types\takeoff_ca.paa",{ call UTIL_fnc_boardTroops; },{!buschtrommel2_board_troops && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+private _afterDarkAction = ["afterDark",  "Skip time to after dark","\A3\ui_f\data\igui\cfg\simpleTasks\types\wait_ca.paa", { remoteExec ["UTIL_fnc_afterDark", 0]; },{dayTime < 18.5 && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 // add to Zeus' player's self interaction menu
 [(typeOf player), 1, ["ACE_SelfActions"], _zeusUtilAction] call ace_interact_menu_fnc_addActionToClass;
 [(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _boardTroopsAction] call ace_interact_menu_fnc_addActionToClass;

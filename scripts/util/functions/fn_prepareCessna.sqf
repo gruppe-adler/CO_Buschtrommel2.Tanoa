@@ -14,7 +14,7 @@ Example:
 
 params ["_cessna"];
 
-if (call BIS_fnc_admin < 2) exitWith { diag_log "fn_prepareCessna.sqf: Player is not logged in as admin. Ignoring preparation of Cessna."; };
+if (!(hasInterface && isServer) && (call BIS_fnc_admin < 2)) exitWith { diag_log "fn_prepareCessna.sqf: Player is not logged in as admin. Ignoring preparation of Cessna."; };
 
 if (!local _cessna) then {
 	private _clientID = clientOwner;

@@ -6,6 +6,12 @@
 // [[2035,6,28,6,20]] remoteExec ["setDate"];
 
 
+buschtrommel2_board_troops = false;    // starts troop boarding sequence
+publicVariable "buschtrommel2_board_troops";
+first_stomper_drop = true;    // prevents drama music from playing multiple times
+publicVariable "first_stomper_drop";
+
+
 // turn off anti-air radar when jammer on small radar is deactivated
 ["crowsEW_main_toggleJammer", {
     params ["_netId", "_enabled"];
