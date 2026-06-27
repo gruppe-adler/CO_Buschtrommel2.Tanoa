@@ -10,7 +10,7 @@ Example:
 
 *///////////////////////////////////////////////
 
-params ["_position"];
+params ["_position", ["_placementRadius", 50]];
 
-private _flare = createVehicle ["F_40mm_Green_Illumination", _position, [], 50, "NONE"];
+private _flare = createVehicle ["F_40mm_Green_Illumination", _position, [], _placementRadius, "NONE"];
 _flare setVelocity [wind select 0, wind select 1, 0];

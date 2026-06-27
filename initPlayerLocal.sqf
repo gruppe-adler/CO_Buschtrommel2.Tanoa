@@ -20,16 +20,19 @@ private _toggleJammerAction = ["toggleJammer",  "Toggle Jammer","\A3\ui_f\data\m
 private _finaleAction = ["finale","Finale","\A3\ui_f\data\map\markers\military\end_CA.paa",{},{!buschtrommel2_board_troops && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 private _boardTroopsAction = ["boardTroops","Board Troops","\A3\ui_f\data\igui\cfg\simpleTasks\types\takeoff_ca.paa",{ call UTIL_fnc_boardTroops; },{!buschtrommel2_board_troops && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 private _afterDarkAction = ["afterDark",  "Skip time to after dark","\A3\ui_f\data\igui\cfg\simpleTasks\types\wait_ca.paa", { remoteExec ["UTIL_fnc_afterDark", 0]; },{dayTime < 18.5 && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+private _establishingShotAction = ["establishingShot",  "Show establishing shot","\A3\ui_f\data\igui\cfg\simpleTasks\types\whiteboard_ca.paa", { remoteExec ["UTIL_fnc_establishingShot", 0]; },{dayTime > 18.5 && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 // add to Zeus' player's self interaction menu
 [(typeOf player), 1, ["ACE_SelfActions"], _zeusUtilAction] call ace_interact_menu_fnc_addActionToClass;
 [(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _boardTroopsAction] call ace_interact_menu_fnc_addActionToClass;
 [(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _afterDarkAction] call ace_interact_menu_fnc_addActionToClass;
+[(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _establishingShotAction] call ace_interact_menu_fnc_addActionToClass;
 [(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _spawnFlareAction] call ace_interact_menu_fnc_addActionToClass;
 // add to Zeus actions menu
 [["ACE_ZeusActions"], _toggleJammerAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions"], _finaleAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","finale"], _boardTroopsAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","finale"], _afterDarkAction] call ace_interact_menu_fnc_addActionToZeus;
+[["ACE_ZeusActions","finale"], _establishingShotAction] call ace_interact_menu_fnc_addActionToZeus;
 private _gunshipAction = ["gunship","Gunship","\A3\Air_F_Exp\VTOL_01\Data\UI\VTOL_01_armed_CA.paa",{},{buschtrommel2_board_troops && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 private _suppressPierAction = ["suppressPier","Suppress Pier","\A3\ui_f\data\map\mapcontrol\Quay_CA.paa",{ target_pier call UTIL_fnc_suppressTarget; },{!isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 private _suppressBunkerEastAction = ["suppressBunkerEast","Suppress Bunker East","\a3\ui_f\data\igui\cfg\simpletasks\letters\e_ca.paa",{ target_bunker_E call UTIL_fnc_suppressTarget; },{!isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
@@ -52,21 +55,10 @@ private _prepareDemolitionDroneAction = ["prepareDemolitinDrone","Prepare Demoli
 [["ACE_ZeusActions"], _prepareDemolitionDroneAction] call ace_interact_menu_fnc_addActionToZeus;
 private _prepareSniperDroneAction = ["prepareSniperDrone","Prepare Sniper Drone","\lxWS\air_f_lxWS\Data\UI\UAV_02_CA.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareSniperDrone; },{"UAV_02_Base_lxWS" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _prepareSniperDroneAction] call ace_interact_menu_fnc_addActionToZeus;
+private _loadAmmoBoxAction = ["loadAmmoBox","Load into Pickup","\A3\ui_f\data\igui\cfg\simpleTasks\types\car_ca.paa",{ curatorSelected#0#0 attachTo [ammobox_pickup, [0.2, 1.4, -0.05], "Supply", true]; },{"gm_ammobox_aluminium_01_empty" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
+[["ACE_ZeusActions"], _loadAmmoBoxAction] call ace_interact_menu_fnc_addActionToZeus;
+private _loadWaterBoxAction = ["loadWaterBox","Load into Pickup","\A3\ui_f\data\igui\cfg\simpleTasks\types\car_ca.paa",{ curatorSelected#0#0 attachTo [water_pickup, [0.2, 1.4, 0.6], "Supply", true]; curatorSelected#0#0 setVectorDirAndUp [[1,0,0], [0,0,1]]; },{"Land_PaperBox_01_open_water_F" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
+[["ACE_ZeusActions"], _loadWaterBoxAction] call ace_interact_menu_fnc_addActionToZeus;
+private _dropWaterAction = ["dropWater","Drop Water","\A3\ui_f\data\Map\MapControl\fountain_CA.paa",{  createVehicle ["Land_WaterBottle_01_pack_F", curatorSelected#0#0, [], 0, "NONE"]; },{"Land_PaperBox_01_open_water_F" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
+[["ACE_ZeusActions"], _dropWaterAction] call ace_interact_menu_fnc_addActionToZeus;
 
-
-/*
-// cinematic establishing shot
-waitUntil { !isNull findDisplay 46 && date#3 < 7};   // need to wait until mission display is loaded and clients have synced their time to the server (before 7am)
-[
-    small_SAM,  // cam target and rotational center
-    "Zerstörer ""Seeadler"" nördlich von Tanoa", // intro text
-    40,     // altitude of cam
-    110,    // radius of cam rotation
-    100,
-    1,      // clockwise rotation
-    [], 
-    0, 
-    true, 
-    10
-] spawn BIS_fnc_establishingShot;
-*/

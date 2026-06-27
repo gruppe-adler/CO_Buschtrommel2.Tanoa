@@ -8,6 +8,7 @@ class util {
         class carryPackage{};
         class curatorSelectedIsKindOf{};
         class dropPackage{};
+        class establishingShot{};
         class prepareCessna{};
         class prepareDemolitionDrone{};
         class prepareSniperDrone{};
