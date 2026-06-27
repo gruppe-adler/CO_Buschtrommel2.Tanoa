@@ -6,6 +6,7 @@ class util {
         class afterDark{};
         class boardTroops{};
         class carryPackage{};
+        class curatorSelectedIsKindOf{};
         class dropPackage{};
         class prepareCessna{};
         class prepareDemolitionDrone{};

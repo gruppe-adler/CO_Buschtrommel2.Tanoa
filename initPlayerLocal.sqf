@@ -40,17 +40,17 @@ private _suppressBunkerWestAction = ["suppressBunkerWest","Suppress Bunker West"
 [["ACE_ZeusActions","gunship"], _suppressBunkerEastAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","gunship"], _suppressBunkerCenterEastAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","gunship"], _suppressBunkerWestAction] call ace_interact_menu_fnc_addActionToZeus;
-private _packageCarryingAction = ["packageCarrying","Package carrying","\A3\ui_f\data\igui\cfg\simpleTasks\types\backpack_ca.paa",{},{curatorSelected#0#0 isKindOf "Man"}] call ace_interact_menu_fnc_createAction;
-private _carryPackageAction = ["carryPackage","Carry Package","\A3\ui_f\data\igui\cfg\actions\take_ca.paa",{ [curatorSelected#0#0, true] call UTIL_fnc_carryPackage; },{curatorSelected#0#0 isKindOf "Man"}] call ace_interact_menu_fnc_createAction;
-private _dropPackageAction = ["dropPackage","Drop Package","\A3\ui_f\data\igui\cfg\actions\loadVehicle_ca.paa",{ [curatorSelected#0#0, false] call UTIL_fnc_carryPackage; },{curatorSelected#0#0 isKindOf "Man"}] call ace_interact_menu_fnc_createAction;
+private _packageCarryingAction = ["packageCarrying","Package carrying","\A3\ui_f\data\igui\cfg\simpleTasks\types\backpack_ca.paa",{},{"Man" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
+private _carryPackageAction = ["carryPackage","Carry Package","\A3\ui_f\data\igui\cfg\actions\take_ca.paa",{ [curatorSelected#0#0, true] call UTIL_fnc_carryPackage; },{"Man" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
+private _dropPackageAction = ["dropPackage","Drop Package","\A3\ui_f\data\igui\cfg\actions\loadVehicle_ca.paa",{ [curatorSelected#0#0, false] call UTIL_fnc_carryPackage; },{"Man" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _packageCarryingAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","packageCarrying"], _carryPackageAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","packageCarrying"], _dropPackageAction] call ace_interact_menu_fnc_addActionToZeus;
-private _prepareSpectrumDeviceAction = ["prepareSpectrumDevice","Prepare Spectrum Device","\a3\data_f_enoch\Logos\arma3_enoch_logo_small_ca.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareSpectrumDevice; },{curatorSelected#0#0 isKindOf "Man"}] call ace_interact_menu_fnc_createAction;
+private _prepareSpectrumDeviceAction = ["prepareSpectrumDevice","Prepare Spectrum Device","\a3\data_f_enoch\Logos\arma3_enoch_logo_small_ca.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareSpectrumDevice; },{"Man" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _prepareSpectrumDeviceAction] call ace_interact_menu_fnc_addActionToZeus;
-private _prepareDemolitionDroneAction = ["prepareDemolitinDrone","Prepare Demolition Drone","\A3\Drones_F\Air_F_Gamma\UAV_01\Data\UI\Map_UAV_01_CA.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareDemolitionDrone; },{curatorSelected#0#0 isKindOf "UAV_01_base_F"}] call ace_interact_menu_fnc_createAction;
+private _prepareDemolitionDroneAction = ["prepareDemolitinDrone","Prepare Demolition Drone","\A3\Drones_F\Air_F_Gamma\UAV_01\Data\UI\Map_UAV_01_CA.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareDemolitionDrone; },{"UAV_01_base_F" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _prepareDemolitionDroneAction] call ace_interact_menu_fnc_addActionToZeus;
-private _prepareSniperDroneAction = ["prepareSniperDrone","Prepare Sniper Drone","\lxWS\air_f_lxWS\Data\UI\UAV_02_CA.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareSniperDrone; },{curatorSelected#0#0 isKindOf "UAV_02_Base_lxWS"}] call ace_interact_menu_fnc_createAction;
+private _prepareSniperDroneAction = ["prepareSniperDrone","Prepare Sniper Drone","\lxWS\air_f_lxWS\Data\UI\UAV_02_CA.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareSniperDrone; },{"UAV_02_Base_lxWS" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _prepareSniperDroneAction] call ace_interact_menu_fnc_addActionToZeus;
 
 
