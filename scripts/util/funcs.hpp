@@ -13,5 +13,6 @@ class util {
         class prepareSpectrumDevice{};
         class refuel{};
         class spawnFlare{};
+        class suppressTarget{};
     };
 };
