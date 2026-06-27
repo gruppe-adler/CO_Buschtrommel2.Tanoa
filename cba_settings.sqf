@@ -140,6 +140,9 @@ force ace_parachute_hideAltimeter = false;
 // ACE Volume
 force acex_volume_lowerInVehicles = false;	// boats and stompers have open air seats (and ambient music would be affected by this)
 
+// ACE Hearing
+force ace_hearing_disableEarRinging = true;
+
 // ACE Weapons
 // ace_common_persistentLaserEnabled = false;
 // ace_laserpointer_enabled = true;
@@ -418,7 +421,7 @@ force zen_faction_filter_1_UK3CB_WEI_B = false;
 force zen_faction_filter_1_UK3CB_WEI_B_groups = false;
 force zen_faction_filter_2_gm_fc_xx = false;
 force zen_faction_filter_2_IND_E_F = false;
-force zen_faction_filter_2_IND_F = false;
+force zen_faction_filter_2_IND_F = true;
 force zen_faction_filter_2_IND_G_F = false;
 force zen_faction_filter_2_IND_L_F = false;
 force zen_faction_filter_2_IND_SFIA_lxWS = false;

@@ -12,4 +12,6 @@ Example:
 
 params ["_drone"];
 
-("ModuleExplosive_DemoCharge_F" createVehicle position _drone) attachTo [_drone, [0, 0, 0.15]];
+private _demoBlock = "ModuleExplosive_DemoCharge_F" createVehicle position _drone;	// spawn demolition block
+_demoBlock attachTo [_drone, [0, 0, 0.15]];		// attach to drone
+[_demoBlock, { { _x addCuratorEditableObjects [[_this], false] } forEach allCurators; }] remoteExec ["call", 2];  // make object visible to Zeus
