@@ -61,4 +61,11 @@ private _loadWaterBoxAction = ["loadWaterBox","Load into Pickup","\A3\ui_f\data\
 [["ACE_ZeusActions"], _loadWaterBoxAction] call ace_interact_menu_fnc_addActionToZeus;
 private _dropWaterAction = ["dropWater","Drop Water","\A3\ui_f\data\Map\MapControl\fountain_CA.paa",{  createVehicle ["Land_WaterBottle_01_pack_F", curatorSelected#0#0, [], 0, "NONE"]; },{"Land_PaperBox_01_open_water_F" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _dropWaterAction] call ace_interact_menu_fnc_addActionToZeus;
-
+private _deleteMarkerAction = ["deleteMarker","Delete Marker","\A3\ui_f\data\map\markers\military\warning_CA.paa",{},{(getMarkerType "marker_lost_stomper_east" + getMarkerType "marker_lost_stomper_west" + getMarkerType "marker_lost_stomper_ravi-ta") != "" && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+private _deleteStomperLostMarkerEastAction = ["deleteStomperLostMarkerEast","Stomper lost east","\a3\ui_f\data\igui\cfg\simpletasks\letters\e_ca.paa",{ deleteMarker "marker_lost_stomper_east"; },{getMarkerType "marker_lost_stomper_east" != "" && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+private _deleteStomperLostMarkerWestAction = ["deleteStomperLostMarkerWest","Stomper lost west","\a3\ui_f\data\igui\cfg\simpletasks\letters\w_ca.paa",{ deleteMarker "marker_lost_stomper_west"; },{getMarkerType "marker_lost_stomper_west" != "" && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+private _deleteStomperLostMarkerNorthAction = ["deleteStomperLostMarkerNorth","Stomper lost Ravi-Ta","\a3\ui_f\data\igui\cfg\simpletasks\letters\n_ca.paa",{ deleteMarker "marker_lost_stomper_ravi-ta"; },{getMarkerType "marker_lost_stomper_ravi-ta" != "" && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+[["ACE_ZeusActions"], _deleteMarkerAction] call ace_interact_menu_fnc_addActionToZeus;
+[["ACE_ZeusActions","deleteMarker"], _deleteStomperLostMarkerEastAction] call ace_interact_menu_fnc_addActionToZeus;
+[["ACE_ZeusActions","deleteMarker"], _deleteStomperLostMarkerWestAction] call ace_interact_menu_fnc_addActionToZeus;
+[["ACE_ZeusActions","deleteMarker"], _deleteStomperLostMarkerNorthAction] call ace_interact_menu_fnc_addActionToZeus;
