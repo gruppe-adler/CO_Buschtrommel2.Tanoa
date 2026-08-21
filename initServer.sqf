@@ -28,6 +28,21 @@ publicVariable "first_stomper_drop";
 }] call CBA_fnc_addEventHandler;
 
 
+// randomize weapon caches 
+{
+    clearWeaponCargoGlobal _x;
+    clearMagazineCargoGlobal _x;
+    _x addWeaponCargoGlobal ["arifle_AKM_F", floor random 10];
+    _x addWeaponCargoGlobal ["arifle_AK12_GL_F", floor random 3];
+    _x addMagazineCargoGlobal ["1Rnd_HE_Grenade_shell", floor random 10];
+    _x addMagazineCargoGlobal ["30Rnd_762x39_Mag_F", floor random 20];
+    _x addMagazineCargoGlobal ["30Rnd_762x39_AK12_Mag_F", floor random 20];
+    _x addMagazineCargoGlobal ["30Rnd_762x39_Mag_Green_F", floor random 20];
+    _x addMagazineCargoGlobal ["30Rnd_762x39_Mag_Tracer_F", floor random 20];
+    _x addMagazineCargoGlobal ["30Rnd_762x39_Mag_Tracer_Green_F", floor random 20];
+} forEach (allMissionObjects "UK3CB_AK47_Equipbox_Indfor");
+
+
 // remove NVGs from AI
 { _x unlinkItem hmd _x; } forEach units blufor;
 
