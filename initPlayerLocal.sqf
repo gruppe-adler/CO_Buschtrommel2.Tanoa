@@ -51,7 +51,7 @@ private _dropPackageAction = ["dropPackage","Drop Package","\A3\ui_f\data\igui\c
 [["ACE_ZeusActions","packageCarrying"], _dropPackageAction] call ace_interact_menu_fnc_addActionToZeus;
 private _prepareSpectrumDeviceAction = ["prepareSpectrumDevice","Prepare Spectrum Device","\a3\data_f_enoch\Logos\arma3_enoch_logo_small_ca.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareSpectrumDevice; },{"Man" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _prepareSpectrumDeviceAction] call ace_interact_menu_fnc_addActionToZeus;
-private _prepareDemolitionDroneAction = ["prepareDemolitinDrone","Prepare Demolition Drone","\A3\Drones_F\Air_F_Gamma\UAV_01\Data\UI\Map_UAV_01_CA.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareDemolitionDrone; },{"UAV_01_base_F" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
+private _prepareDemolitionDroneAction = ["prepareDemolitinDrone","Prepare Demolition Drone","\A3\Drones_F\Air_F_Gamma\UAV_01\Data\UI\Map_UAV_01_CA.paa",{ { _x call UTIL_fnc_prepareDemolitionDrone; } forEach curatorSelected#0; },{"UAV_01_base_F" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _prepareDemolitionDroneAction] call ace_interact_menu_fnc_addActionToZeus;
 private _prepareSniperDroneAction = ["prepareSniperDrone","Prepare Sniper Drone","\lxWS\air_f_lxWS\Data\UI\UAV_02_CA.paa",{ curatorSelected#0#0 call UTIL_fnc_prepareSniperDrone; },{"UAV_02_Base_lxWS" call UTIL_fnc_curatorSelectedIsKindOf;}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _prepareSniperDroneAction] call ace_interact_menu_fnc_addActionToZeus;
