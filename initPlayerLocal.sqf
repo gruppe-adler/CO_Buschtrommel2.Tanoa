@@ -23,6 +23,7 @@ private _afterDarkAction = ["afterDark",  "Skip time to after dark","\A3\ui_f\da
 private _establishingShotAction = ["establishingShot",  "Show establishing shot","\A3\ui_f\data\igui\cfg\simpleTasks\types\whiteboard_ca.paa", { remoteExec ["UTIL_fnc_establishingShot", 0]; },{dayTime > 18.5 && !isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
 // add to Zeus' player's self interaction menu
 [(typeOf player), 1, ["ACE_SelfActions"], _zeusUtilAction] call ace_interact_menu_fnc_addActionToClass;
+[(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _toggleJammerAction] call ace_interact_menu_fnc_addActionToClass;
 [(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _boardTroopsAction] call ace_interact_menu_fnc_addActionToClass;
 [(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _afterDarkAction] call ace_interact_menu_fnc_addActionToClass;
 [(typeOf player), 1, ["ACE_SelfActions","zeusUtils"], _establishingShotAction] call ace_interact_menu_fnc_addActionToClass;
@@ -69,3 +70,11 @@ private _deleteStomperLostMarkerNorthAction = ["deleteStomperLostMarkerNorth","S
 [["ACE_ZeusActions","deleteMarker"], _deleteStomperLostMarkerEastAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","deleteMarker"], _deleteStomperLostMarkerWestAction] call ace_interact_menu_fnc_addActionToZeus;
 [["ACE_ZeusActions","deleteMarker"], _deleteStomperLostMarkerNorthAction] call ace_interact_menu_fnc_addActionToZeus;
+private _teleportAction = ["teleport","Teleport into heli","\a3\ui_f\data\igui\cfg\simpletasks\types\heli_ca.paa",{},{!isNull (getAssignedCuratorLogic player)}] call ace_interact_menu_fnc_createAction;
+private _teleportToPilot1Action = ["teleportToPilot1","of pilot 1","\a3\ui_f\data\gui\cfg\ranks\private_pr.paa",{ player moveInCargo vehicle pilot1; },{!isNull (getAssignedCuratorLogic player) && ((vehicle pilot1) isKindOf "Helicopter")}] call ace_interact_menu_fnc_createAction;
+private _teleportToPilot2Action = ["teleportToPilot2","of pilot 2","\a3\ui_f\data\gui\cfg\ranks\corporal_pr.paa",{ player moveInCargo vehicle pilot2; },{!isNull (getAssignedCuratorLogic player) && ((vehicle pilot2) isKindOf "Helicopter")}] call ace_interact_menu_fnc_createAction;
+private _teleportToPilot3Action = ["teleportToPilot3","of pilot 3","\a3\ui_f\data\gui\cfg\ranks\sergeant_pr.paa",{ player moveInCargo vehicle pilot3; },{!isNull (getAssignedCuratorLogic player) && ((vehicle pilot3) isKindOf "Helicopter")}] call ace_interact_menu_fnc_createAction;
+[["ACE_ZeusActions"], _teleportAction] call ace_interact_menu_fnc_addActionToZeus;
+[["ACE_ZeusActions","teleport"], _teleportToPilot1Action] call ace_interact_menu_fnc_addActionToZeus;
+[["ACE_ZeusActions","teleport"], _teleportToPilot2Action] call ace_interact_menu_fnc_addActionToZeus;
+[["ACE_ZeusActions","teleport"], _teleportToPilot3Action] call ace_interact_menu_fnc_addActionToZeus;
