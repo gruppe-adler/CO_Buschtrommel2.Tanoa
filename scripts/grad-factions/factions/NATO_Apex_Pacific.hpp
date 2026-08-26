@@ -12,9 +12,9 @@ class NATO_Apex_Pacific {
             "H_HelmetB_Enh_tna_F",
             "H_HelmetB_tna_F"
         };
-        primaryWeapon = "";
-        primaryWeaponMagazine = "";
-        primaryWeaponOptics = "";
+        primaryWeapon = "arifle_MX_khk_F";
+        primaryWeaponMagazine = "30Rnd_65x39_caseless_khaki_mag";
+        primaryWeaponOptics = "optic_Aco";
         primaryWeaponMuzzle = "";
         primaryWeaponPointer = "";
         primaryWeaponUnderbarrel = "";
@@ -174,6 +174,19 @@ class NATO_Apex_Pacific {
                 LIST_3("7Rnd_408_Mag")
             };
         };
+
+        // light anti tank
+        class Soldier_LAT_F: Soldier_F {
+            backpack = "B_AssaultPack_rgr_BTLAT_F";
+            secondaryWeapon = "launch_NLAW_F";
+            addItemsToBackpack[] = {
+                LIST_2("NLAW_F")
+            };
+        };
+
+        // simple derivatives        
+        class Soldier_A_F: Soldier_F {};        // ammo bearer
+        class Soldier_TL_F: Soldier_SL_F {};    // team leader
         
         /*** following are classes not derived from the rifleman ***/
         
@@ -209,10 +222,13 @@ class NATO_Apex_Pacific {
         
         // artillery gunner (base class for non-hunter-killer)
         class Support_Mort_F {
+            uniform = "U_B_T_Soldier_AR_F";
+            backpack = "";
+            headgear = "H_Booniehat_tna_F";
             primaryWeapon = "arifle_MXC_khk_Holo_Pointer_F";
             primaryWeaponMagazine = "30Rnd_65x39_caseless_khaki_mag";
             primaryWeaponOptics = "optic_Holosight_khk_F";
-            goggles = "G_Tactical_Clear";
+            // goggles = "G_Tactical_Clear";
             addItemsToVest[] = {
                 LIST_5("30Rnd_65x39_caseless_khaki_mag"),
                 LIST_1("ACE_artilleryTable"),
@@ -220,12 +236,7 @@ class NATO_Apex_Pacific {
                 LIST_1("ACE_EntrenchingTool"),
                 LIST_1("ACE_Fortify")                
             };
-        };       
-        
-        // artillery leader
-        class Soldier_TL_F: Support_Mort_F {
-            backpack = "TFAR_rt1523g_bwmod";
-        };        
+        };
         
         // sensor operator (UAV and directionfinder)
         class Soldier_UAV_F: Support_Mort_F {
@@ -254,5 +265,13 @@ class NATO_Apex_Pacific {
                 LIST_1("ACE_wirecutter")
             };
         };        
+    };
+
+    class Rank {
+        // e.g. artillery leader
+        class SERGEANT {
+            backpack = "TFAR_rt1523g_bwmod";
+            goggles = "G_Tactical_Clear";
+        };
     };
 };
